@@ -1,0 +1,10 @@
+# Hangul, punctuation, Hanja and compatibility forms.
+1100-11FF
+3000-303F
+3130-318F
+3400-4DBF
+4E00-9FFF
+AC00-D7AF
+F900-FAFF
+FF00-FFEF
+20000-2EBEF

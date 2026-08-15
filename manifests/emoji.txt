@@ -1,0 +1,10 @@
+# Symbols and emoji assigned across the principal Unicode blocks.
+0023
+002A
+0030-0039
+200D
+20E3
+2300-23FF
+2600-27BF
+FE0E-FE0F
+1F000-1FAFF

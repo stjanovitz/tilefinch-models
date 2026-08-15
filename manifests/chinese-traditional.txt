@@ -1,0 +1,9 @@
+# Bopomofo, punctuation, Han ideographs and compatibility forms.
+3000-303F
+3100-312F
+31A0-31BF
+3400-4DBF
+4E00-9FFF
+F900-FAFF
+FF00-FFEF
+20000-2EBEF

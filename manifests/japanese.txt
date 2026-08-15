@@ -1,0 +1,9 @@
+# Japanese kana, punctuation, Han ideographs and compatibility forms.
+3000-303F
+3040-30FF
+31F0-31FF
+3400-4DBF
+4E00-9FFF
+F900-FAFF
+FF00-FFEF
+20000-2EBEF

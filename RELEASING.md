@@ -25,6 +25,8 @@ signed TFGM envelope:
 - `tilefinch-glyph-zh-hans-v1.{tfgf,tfgm}`
 - `tilefinch-glyph-zh-hant-v1.{tfgf,tfgm}`
 - `tilefinch-glyph-ko-v1.{tfgf,tfgm}`
+- `tilefinch-glyph-cyrillic-v1.{tfgf,tfgm}`
+- `tilefinch-glyph-latin-extended-v1.{tfgf,tfgm}`
 - `tilefinch-glyph-emoji-color-v1.{tfgf,tfgm}`
 
 Browser, voice, and glyph metadata use separate package-format identifiers,
@@ -82,6 +84,31 @@ python3 tools/build_glyph_pack.py \
 The producer writes a size, SHA-256, glyph count, and sequence count. Capture
 those values in the release work record. Rebuilding with identical inputs and
 the pinned dependencies must produce the same SHA-256.
+
+Cyrillic and Extended Latin use the upstream `NotoSans-Regular.ttf` outline
+font and the same OFL notice. They deliberately share one source face so their
+weight and metrics match when both scripts occur on one page:
+
+```sh
+python3 tools/build_glyph_pack.py \
+  --component-id glyph-cyrillic \
+  --font inputs/NotoSans-Regular.ttf \
+  --license inputs/OFL.txt \
+  --codepoints manifests/cyrillic.txt \
+  --output dist/tilefinch-glyph-cyrillic-v1.tfgf
+
+python3 tools/build_glyph_pack.py \
+  --component-id glyph-latin-extended \
+  --font inputs/NotoSans-Regular.ttf \
+  --license inputs/OFL.txt \
+  --codepoints manifests/latin-extended.txt \
+  --output dist/tilefinch-glyph-latin-extended-v1.tfgf
+```
+
+The producer intersects each manifest with the exact font cmap. The release
+record must therefore include the resulting glyph count as well as the source
+font digest; changing Noto Sans revisions can change the pack even when the
+manifest is unchanged.
 
 ## Sign a glyph pack
 

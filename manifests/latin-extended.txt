@@ -1,0 +1,9 @@
+# Latin additions beyond Tilefinch's bundled U+0000-U+024F coverage.
+# Latin Extended Additional contains the precomposed Vietnamese alphabet;
+# the later blocks extend coverage for African and minority languages.
+1E00-1EFF
+2C60-2C7F
+A720-A7FF
+AB30-AB6F
+10780-107BF
+1DF00-1DFFF

@@ -1,0 +1,7 @@
+# Modern Cyrillic plus the supplementary and extended blocks used by
+# Russian, Ukrainian, Belarusian, Bulgarian, Serbian, Macedonian and
+# other Cyrillic-writing languages.
+0400-052F
+1C80-1C8F
+2DE0-2DFF
+A640-A69F

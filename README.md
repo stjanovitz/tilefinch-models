@@ -10,22 +10,29 @@ available, and it never downloads an optional component automatically.
 
 ## Language and emoji packs
 
-Language packs make more characters available and choose glyph shapes suited
-to a region:
+Tilefinch includes Western and Central European text support, plus compact CJK
+and monochrome emoji fallbacks, without any download. Optional signed packs
+add more scripts or improve the shapes and presentation of characters the
+browser already knows:
 
-- Japanese
-- Simplified Chinese
-- Traditional Chinese
-- Korean
+| Pack | What it adds |
+|---|---|
+| Japanese | Region-appropriate kana and Japanese Han forms |
+| Simplified Chinese | Simplified Chinese Han forms and Bopomofo |
+| Traditional Chinese | Traditional Chinese Han forms and Bopomofo |
+| Korean | Hangul and region-appropriate Hanja |
+| Cyrillic | Russian, Ukrainian, Belarusian, Bulgarian, Serbian, Macedonian and related languages |
+| Extended Latin | Vietnamese and less-common Latin characters used by additional languages |
+| Color emoji | Color presentation for supported emoji and sequences |
 
-There is also an independent color emoji pack. You can use one regional CJK
-pack and color emoji together. If a pack is missing, damaged, or removed,
-Tilefinch falls back to its built-in monochrome glyphs rather than leaving the
-page unreadable.
+Cyrillic is one shared script pack; Russian and Ukrainian do not require
+separate downloads. Color emoji is independent of the language packs. If a
+pack is missing, damaged, or removed, Tilefinch continues with its bundled
+fonts and fallbacks.
 
-To install a pack in Tilefinch:
+To install a pack exposed by your Tilefinch version:
 
-1. Open **Options → Appearance → Language & emoji**.
+1. Open **Settings → Appearance → Language & emoji**.
 2. Choose a language, or turn on **Color emoji**.
 3. Select the corresponding pack row and confirm the download.
 4. Restart Tilefinch after installation.

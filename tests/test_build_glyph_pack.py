@@ -8,6 +8,7 @@ import unittest
 
 
 MODULE_PATH = Path(__file__).resolve().parents[1] / "tools" / "build_glyph_pack.py"
+REPOSITORY_ROOT = MODULE_PATH.parents[1]
 SPEC = importlib.util.spec_from_file_location("build_glyph_pack", MODULE_PATH)
 PACKER = importlib.util.module_from_spec(SPEC)
 assert SPEC.loader is not None
@@ -59,6 +60,31 @@ class GlyphPackTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             PACKER.build_pack(
                 "glyph-ja", 1, 16, 16, [glyph, glyph], [], b"notice")
+
+    def test_cyrillic_manifest_covers_russian_and_ukrainian(self):
+        values = PACKER.read_codepoint_spec(
+            REPOSITORY_ROOT / "manifests" / "cyrillic.txt")
+        required = {
+            0x0401,  # Russian IO
+            0x0416,  # Russian ZHE
+            0x044F,  # Russian YA
+            0x0404,  # Ukrainian IE
+            0x0406,  # Ukrainian I
+            0x0407,  # Ukrainian YI
+            0x0490,  # Ukrainian GHE WITH UPTURN
+        }
+        self.assertTrue(required <= values)
+
+    def test_extended_latin_manifest_covers_vietnamese(self):
+        values = PACKER.read_codepoint_spec(
+            REPOSITORY_ROOT / "manifests" / "latin-extended.txt")
+        required = {
+            0x1EA0,  # A WITH DOT BELOW
+            0x1EAF,  # A WITH BREVE AND ACUTE
+            0x1ED9,  # O WITH CIRCUMFLEX AND DOT BELOW
+            0x1EF9,  # Y WITH TILDE
+        }
+        self.assertTrue(required <= values)
 
 
 if __name__ == "__main__":

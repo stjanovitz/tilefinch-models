@@ -1,0 +1,7 @@
+# Arabic-family base letters, marks, and contextual presentation forms.
+0600-06FF
+0750-077F
+0870-089F
+08A0-08FF
+FB50-FDFF
+FE70-FEFF

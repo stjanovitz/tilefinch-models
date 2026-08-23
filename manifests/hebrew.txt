@@ -1,0 +1,3 @@
+# Hebrew letters, points, cantillation, and presentation forms.
+0590-05FF
+FB1D-FB4F

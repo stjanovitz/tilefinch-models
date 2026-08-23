@@ -25,6 +25,10 @@ signed TFGM envelope:
 - `tilefinch-glyph-zh-hans-v1.{tfgf,tfgm}`
 - `tilefinch-glyph-zh-hant-v1.{tfgf,tfgm}`
 - `tilefinch-glyph-ko-v1.{tfgf,tfgm}`
+- `tilefinch-glyph-cyrillic-v1.{tfgf,tfgm}`
+- `tilefinch-glyph-latin-extended-v1.{tfgf,tfgm}`
+- `tilefinch-glyph-arabic-v1.{tfgf,tfgm}`
+- `tilefinch-glyph-hebrew-v1.{tfgf,tfgm}`
 - `tilefinch-glyph-emoji-color-v1.{tfgf,tfgm}`
 
 Browser, voice, and glyph metadata use separate package-format identifiers,
@@ -77,6 +81,20 @@ python3 tools/build_glyph_pack.py \
   --sequences inputs/emoji-test.txt \
   --color \
   --output dist/tilefinch-glyph-emoji-color-v1.tfgf
+```
+
+For variable outline fonts, pin the intended raster weight. This avoids a
+font-specific default axis (for example Thin) changing the 16×16 release
+cells:
+
+```sh
+python3 tools/build_glyph_pack.py \
+  --component-id glyph-hebrew \
+  --font inputs/NotoSansHebrew.ttf \
+  --license inputs/OFL-Hebrew.txt \
+  --codepoints manifests/hebrew.txt \
+  --weight 400 \
+  --output dist/tilefinch-glyph-hebrew-v1.tfgf
 ```
 
 The producer writes a size, SHA-256, glyph count, and sequence count. Capture

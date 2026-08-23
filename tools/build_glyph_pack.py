@@ -105,8 +105,30 @@ def font_codepoints(path: Path) -> set[int]:
         font.close()
 
 
+def variation_values(axes: list[dict], weight: int | None) -> list[int] | None:
+    if weight is None:
+        return None
+    values = []
+    found_weight = False
+    for axis in axes:
+        name = axis["name"]
+        if isinstance(name, bytes):
+            name = name.decode("ascii", errors="replace")
+        value = axis["default"]
+        if name.lower() == "weight":
+            if weight < axis["minimum"] or weight > axis["maximum"]:
+                raise ValueError("requested weight is outside the font axis")
+            value = weight
+            found_weight = True
+        values.append(value)
+    if not found_weight:
+        raise ValueError("--weight requires a variable font with a Weight axis")
+    return values
+
+
 class FontRasterizer:
-    def __init__(self, path: Path, color: bool, side: int):
+    def __init__(self, path: Path, color: bool, side: int,
+                 weight: int | None = None):
         try:
             from PIL import Image, ImageDraw, ImageFont
         except ImportError as error:
@@ -122,6 +144,9 @@ class FontRasterizer:
         self.render_side = 136 if color else side * 4
         requested = 109 if color else side * 4
         self.font = ImageFont.truetype(str(path), requested)
+        if weight is not None:
+            axes = self.font.get_variation_axes()
+            self.font.set_variation_by_axes(variation_values(axes, weight))
 
     def rgba(self, codepoints: tuple[int, ...]) -> bytes:
         text = "".join(chr(value) for value in codepoints)
@@ -279,7 +304,7 @@ def command_build(args: argparse.Namespace) -> None:
     sequences = [item for item in sequences
                  if all(value in supported or value in structural for value in item)]
     side = 20 if args.color else 16
-    rasterizer = FontRasterizer(font_path, args.color, side)
+    rasterizer = FontRasterizer(font_path, args.color, side, args.weight)
     singles = render_glyphs(rasterizer, ((value,) for value in codepoints), args.color)
     sequence_glyphs = render_glyphs(rasterizer, sequences, args.color)
     license_bytes = Path(args.license).read_bytes()
@@ -287,6 +312,8 @@ def command_build(args: argparse.Namespace) -> None:
         "Tilefinch optional glyph pack\n"
         f"component={args.component_id}\n"
         f"source-font-sha256={hashlib.sha256(font_path.read_bytes()).hexdigest()}\n"
+        + (f"raster-weight={args.weight}\n" if args.weight is not None else "")
+        +
         "The following upstream license applies to the rasterized font data.\n\n"
     ).encode("utf-8")
     pack = build_pack(args.component_id, 2 if args.color else 1, side, side,
@@ -306,6 +333,7 @@ def parser() -> argparse.ArgumentParser:
     result.add_argument("--codepoints", required=True)
     result.add_argument("--sequences")
     result.add_argument("--color", action="store_true")
+    result.add_argument("--weight", type=int)
     result.add_argument("--output", required=True)
     return result
 

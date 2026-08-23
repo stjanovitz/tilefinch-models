@@ -60,6 +60,19 @@ class GlyphPackTests(unittest.TestCase):
             PACKER.build_pack(
                 "glyph-ja", 1, 16, 16, [glyph, glyph], [], b"notice")
 
+    def test_variable_weight_is_explicit_and_bounded(self):
+        axes = [
+            {"name": b"Weight", "minimum": 100, "default": 100,
+             "maximum": 900},
+            {"name": b"Width", "minimum": 62, "default": 100,
+             "maximum": 100},
+        ]
+        self.assertEqual(PACKER.variation_values(axes, 400), [400, 100])
+        with self.assertRaises(ValueError):
+            PACKER.variation_values(axes, 950)
+        with self.assertRaises(ValueError):
+            PACKER.variation_values(axes[1:], 400)
+
 
 if __name__ == "__main__":
     unittest.main()

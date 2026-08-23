@@ -1,4 +1,15 @@
 __pycache__/
 *.pyc
+.venv/
+pydeps/
+proof/
 dist/
 inputs/
+*.ttf
+*.otf
+*.tfgf
+*.tfgm
+*.manifest
+/OFL-*.txt
+/arabic.txt
+/hebrew.txt

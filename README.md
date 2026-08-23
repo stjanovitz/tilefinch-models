@@ -17,15 +17,20 @@ to a region:
 - Simplified Chinese
 - Traditional Chinese
 - Korean
+- Cyrillic
+- Extended Latin
+- Arabic
+- Hebrew
 
-There is also an independent color emoji pack. You can use one regional CJK
-pack and color emoji together. If a pack is missing, damaged, or removed,
-Tilefinch falls back to its built-in monochrome glyphs rather than leaving the
-page unreadable.
+There is also an independent color emoji pack. Tilefinch keeps the selected
+language pack available and can attach other installed packs lazily when a
+page actually uses those scripts. Color emoji works independently. If a pack
+is missing, damaged, or removed, Tilefinch keeps its embedded Latin and
+compact fallback glyphs available.
 
 To install a pack in Tilefinch:
 
-1. Open **Options → Appearance → Language & emoji**.
+1. Open **Settings → Appearance → Language & emoji**.
 2. Choose a language, or turn on **Color emoji**.
 3. Select the corresponding pack row and confirm the download.
 4. Restart Tilefinch after installation.
@@ -52,7 +57,7 @@ dictionaries. The normal keyboard remains available.
 
 To install it:
 
-1. Open **Options → Experimental**.
+1. Open **Settings → Advanced & experimental**.
 2. Turn on **Voice input**.
 3. Select **Voice model** and confirm the download.
 4. Wait for verification and installation to finish.
@@ -65,7 +70,7 @@ installation candidate coexist.
 
 Tilefinch verifies every optional component against its embedded update key
 before activation. Browser A/B updates do not duplicate or replace these
-downloads. The same Options screen can check for an update, cancel an
+downloads. The same Settings screen can check for an update, cancel an
 in-progress download, remove a component, or install it again later.
 
 Removing a component returns its Memory Stick storage. A durable uninstall

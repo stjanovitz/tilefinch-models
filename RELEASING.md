@@ -29,6 +29,7 @@ signed TFGM envelope:
 - `tilefinch-glyph-latin-extended-v1.{tfgf,tfgm}`
 - `tilefinch-glyph-arabic-v1.{tfgf,tfgm}`
 - `tilefinch-glyph-hebrew-v1.{tfgf,tfgm}`
+- `tilefinch-glyph-devanagari-v1.{tfgf,tfgm}`
 - `tilefinch-glyph-emoji-color-v1.{tfgf,tfgm}`
 
 Browser, voice, and glyph metadata use separate package-format identifiers,
@@ -100,6 +101,16 @@ python3 tools/build_glyph_pack.py \
 The producer writes a size, SHA-256, glyph count, and sequence count. Capture
 those values in the release work record. Rebuilding with identical inputs and
 the pinned dependencies must produce the same SHA-256.
+
+For Hindi, install `requirements-shaping.txt` instead. Use the static Noto
+Sans Devanagari Regular font, `manifests/devanagari.txt`, and the exact browser
+release's `translations/ui/v3/hi.sequences`. Add `--shaped-mono`; this requires
+HarfBuzz and FreeType explicitly and never silently uses scalar rendering.
+The browser consumes the pre-shaped longest cluster in one bounded cell.
+Common Hindi syllables and all current interface clusters are covered, not
+arbitrary OpenType shaping of every possible Devanagari sequence. Run
+`python3 tests/test_hindi_shaping.py inputs/NotoSansDevanagari-Regular.ttf`
+and inspect actual browser menu captures before signing the pack.
 
 ## Sign a glyph pack
 

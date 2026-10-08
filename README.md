@@ -21,6 +21,7 @@ to a region:
 - Extended Latin
 - Arabic
 - Hebrew
+- Devanagari (Hindi; pre-shaped common syllables and interface clusters)
 
 There is also an independent color emoji pack. Tilefinch keeps the selected
 language pack available and can attach other installed packs lazily when a

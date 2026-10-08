@@ -175,6 +175,69 @@ class FontRasterizer:
         return cell.tobytes()
 
 
+class ShapedMonoRasterizer:
+    """Shape complete clusters offline; runtime cells need no font engine.
+
+    Unlike the Pillow-only path, this explicitly requires HarfBuzz. Never
+    silently rasterize Indic sequences as unrelated scalar glyphs.
+    """
+    def __init__(self, path: Path, side: int):
+        import freetype
+        import uharfbuzz as hb
+        from PIL import Image
+        self.hb, self.ft, self.Image, self.side = hb, freetype, Image, side
+        self.source = path.read_bytes()
+        self.font = hb.Font(hb.Face(self.source))
+        hb.ot_font_set_funcs(self.font)
+        self.font.scale = (side * 4 * 64, side * 4 * 64)
+        self.face = freetype.Face(str(path))
+        self.face.set_pixel_sizes(0, side * 4)
+
+    def rgba(self, codepoints: tuple[int, ...]) -> bytes:
+        hb, ft = self.hb, self.ft
+        buffer = hb.Buffer()
+        buffer.add_str("".join(chr(cp) for cp in codepoints))
+        buffer.guess_segment_properties()
+        buffer.language = "hi"
+        hb.shape(self.font, buffer)
+        x = y = 0
+        bitmaps = []
+        for info, position in zip(buffer.glyph_infos, buffer.glyph_positions):
+            self.face.load_glyph(info.codepoint, ft.FT_LOAD_RENDER)
+            slot = self.face.glyph
+            bitmap = slot.bitmap
+            left = (x + position.x_offset) // 64 + slot.bitmap_left
+            top = -(y + position.y_offset) // 64 - slot.bitmap_top
+            if bitmap.width and bitmap.rows:
+                raw = bytes(bitmap.buffer)
+                pitch = bitmap.pitch
+                # FreeType may include row padding; preserve every ink pixel.
+                rows = [raw[row * abs(pitch):row * abs(pitch) + bitmap.width]
+                        for row in range(bitmap.rows)]
+                if pitch < 0:
+                    rows.reverse()
+                mask = self.Image.frombytes("L", (bitmap.width, bitmap.rows), b"".join(rows))
+                bitmaps.append((left, top, mask))
+            x += position.x_advance
+            y += position.y_advance
+        if not bitmaps:
+            return bytes(self.side * self.side * 4)
+        left = min(item[0] for item in bitmaps)
+        top = min(item[1] for item in bitmaps)
+        right = max(item[0] + item[2].width for item in bitmaps)
+        bottom = max(item[1] + item[2].height for item in bitmaps)
+        image = self.Image.new("RGBA", (right - left, bottom - top), (0, 0, 0, 0))
+        for gx, gy, mask in bitmaps:
+            glyph = self.Image.new("RGBA", mask.size, (255, 255, 255, 0))
+            glyph.putalpha(mask)
+            image.alpha_composite(glyph, (gx - left, gy - top))
+        image.thumbnail((self.side - 1, self.side - 1), self.Image.Resampling.LANCZOS)
+        cell = self.Image.new("RGBA", (self.side, self.side), (0, 0, 0, 0))
+        cell.alpha_composite(image, ((self.side - image.width) // 2,
+                                     (self.side - image.height) // 2))
+        return cell.tobytes()
+
+
 def mono_payload(rgba: bytes, side: int) -> bytes:
     if side != 16 or len(rgba) != side * side * 4:
         raise ValueError("mono TFGF cells must be 16x16 RGBA")
@@ -304,7 +367,10 @@ def command_build(args: argparse.Namespace) -> None:
     sequences = [item for item in sequences
                  if all(value in supported or value in structural for value in item)]
     side = 20 if args.color else 16
-    rasterizer = FontRasterizer(font_path, args.color, side, args.weight)
+    if args.shaped_mono and (args.color or args.weight is not None):
+        raise ValueError("--shaped-mono requires a static monochrome font")
+    rasterizer = (ShapedMonoRasterizer(font_path, side) if args.shaped_mono
+                  else FontRasterizer(font_path, args.color, side, args.weight))
     singles = render_glyphs(rasterizer, ((value,) for value in codepoints), args.color)
     sequence_glyphs = render_glyphs(rasterizer, sequences, args.color)
     license_bytes = Path(args.license).read_bytes()
@@ -313,6 +379,7 @@ def command_build(args: argparse.Namespace) -> None:
         f"component={args.component_id}\n"
         f"source-font-sha256={hashlib.sha256(font_path.read_bytes()).hexdigest()}\n"
         + (f"raster-weight={args.weight}\n" if args.weight is not None else "")
+        + ("raster-shaper=harfbuzz\n" if args.shaped_mono else "")
         +
         "The following upstream license applies to the rasterized font data.\n\n"
     ).encode("utf-8")
@@ -333,6 +400,8 @@ def parser() -> argparse.ArgumentParser:
     result.add_argument("--codepoints", required=True)
     result.add_argument("--sequences")
     result.add_argument("--color", action="store_true")
+    result.add_argument("--shaped-mono", action="store_true",
+                        help="shape clusters with HarfBuzz and rasterize with FreeType")
     result.add_argument("--weight", type=int)
     result.add_argument("--output", required=True)
     return result

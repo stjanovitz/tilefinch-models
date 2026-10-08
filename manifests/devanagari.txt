@@ -1,0 +1,5 @@
+# Devanagari and combining extensions supported by the selected source font.
+0900-097F
+A8E0-A8FF
+11B00-11B09
+20B9

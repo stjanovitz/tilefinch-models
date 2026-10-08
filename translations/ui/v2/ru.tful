@@ -1,0 +1,199 @@
+TFUI1	ru
+Active	Активно
+Add/remove bookmark	Изменить закладку
+Address	Адрес
+Advanced & experimental	Дополнительно
+Allow	Разрешить
+Allow site	Разрешить сайт
+Alternate language	Другой язык
+Always Reader	Всегда режим чтения
+Analog cursor	Аналоговый курсор
+Appearance	Внешний вид
+Arabic	Арабский
+Ask	Спрашивать
+Audio & subtitles	Звук и субтитры
+Audio language	Язык звука
+Audio-only	Только звук
+Auto	Авто
+Auto Reader	Авточтение
+Automatic	Автоматически
+Back	Назад
+Basic	Базовый
+Basic view	Простой вид
+Basic view fallback	Простой вид
+Beta	Бета
+Block	Блокировать
+Bookmarks	Закладки
+Box	Плашка
+Browser text size	Текст браузера
+Browser UI	Интерфейс
+Browsing & input	Просмотр и ввод
+Buffered	С буфером
+Built in	Встроено
+Built-in	Встроенная
+Cancel	Отмена
+Check for updates	Проверить обновления
+Check weekly	Раз в неделю
+Check Wi-Fi sign-in	Проверить вход Wi-Fi
+Checking	Проверка
+Checking...	Проверка...
+Chinese (Simplified)	Китайский (упрощ.)
+Chinese (Traditional)	Китайский (традиц.)
+Chrome theme	Тема интерфейса
+Clear cache	Очистить кэш
+Clear cookies	Стереть cookie
+Clear history	Стереть историю
+Clear playback positions	Стереть позиции
+Close	Закрыть
+Collections	Коллекции
+Color emoji pack	Цветные эмодзи
+Color pack	Цветной пакет
+Compact	Компактный
+Content blocker	Блокировщик
+Content blocking	Блокировка контента
+Controls guide	Управление
+Cookie notices	Уведомления cookie
+Cookies & storage	Cookie и хранилище
+Custom	Свой
+Cyrillic	Кириллица
+Dark	Тёмная
+Default	По умолчанию
+Detailed	Подробно
+Device & storage	Устройство и память
+Diagnostic QR	QR диагностики
+Downloading	Загрузка
+Downloading...	Загрузка...
+Embedded	Встроенные
+Emoji	Эмодзи
+English	Английский
+Error	Ошибка
+Exit to XMB	Выйти в XMB
+Experimental	Экспериментальное
+Extended Latin	Расшир. латиница
+Extracted text	Извлечённый текст
+Find in page	Найти на странице
+Forward	Вперёд
+French	Французский
+Game buttons	Кнопки игры
+German	Немецкий
+Global off	Выключен везде
+Heavy pages	Тяжёлые страницы
+Hebrew	Иврит
+Help & diagnostics	Помощь и диагностика
+Hibernate tab	Выгружать вкладку
+Hidden	Скрыты
+Hide page ads	Скрывать рекламу
+History	История
+Home	Главная
+Home page	Главная страница
+Immediate	Сразу
+Install offline app	Установить приложение
+Installed	Установлен
+Installing	Установка
+INSTALLING UI LANGUAGE	УСТАНОВКА ЯЗЫКА
+Installing...	Установка...
+Interface language	Язык интерфейса
+Japanese	Японский
+JavaScript	JavaScript
+Keyboard	Клавиатура
+Korean	Корейский
+Language	Язык
+Language & emoji	Язык и эмодзи
+LANGUAGE DOWNLOAD CANCELLED	ЗАГРУЗКА ЯЗЫКА ОТМЕНЕНА
+LANGUAGE DOWNLOAD FAILED - TRY AGAIN	ЯЗЫК НЕ ЗАГРУЖЕН — ПОВТОРИТЕ
+Language pack	Языковой пакет
+Large	Большой
+Last error summary	Последняя ошибка
+Left/Right choose   O Back	Влево/вправо: выбор   O Назад
+Library	Библиотека
+Licences	Лицензии
+Light	Светлая
+Load allowlist	Загрузить разрешения
+Loading	Загрузка
+Medium	Средний
+Mixed HTTP (session)	Смешанный HTTP
+My links	Мои ссылки
+Network profile	Профиль сети
+New	Новое
+Night mode	Ночной режим
+No	Нет
+None	Нет
+Not installed	Не установлен
+Off	Выкл.
+Offer language packs	Предлагать пакеты
+On	Вкл.
+Original	Оригинал
+Page colors	Цвета страницы
+Page glyphs	Шрифты страниц
+Page text size	Текст страницы
+Page tools	Инструменты страницы
+Per site	Для сайта
+Permissions & controls	Разрешения и управление
+Press X again to exit	Ещё раз X для выхода
+Privacy & security	Защита данных
+Reader	Чтение
+Reader font	Шрифт чтения
+Reader mode	Режим чтения
+Ready	Готово
+Reload	Обновить
+Remember size	Запоминать размер
+Reset declined offers	Сбросить отказы
+Restore page	Восстановить страницу
+Resume saves	Продолжать загрузки
+Retry	Повторить
+Run	Запускать
+Russian	Русский
+Save article	Сохранить статью
+Save error reports	Сохранять ошибки
+Save playback position	Сохранять позицию
+Save playback positions	Сохранять позицию
+Save screenshot	Снимок экрана
+Search	Поиск
+Search engine	Поисковик
+Settings	Настройки
+Settings > Video > Audio & subtitles	Настройки > Видео > Звук и субтитры
+Shadow	Тень
+Sharp	Чётко
+Shown	Показаны
+Site data & storage	Данные сайта
+Site information	Сведения о сайте
+Site storage	Хранилище сайта
+Small	Маленький
+Smooth	Плавно
+Spanish	Испанский
+Stable	Стабильный
+Subtitle background	Фон субтитров
+Subtitle language	Язык субтитров
+Subtitle size	Размер субтитров
+Tabs	Вкладки
+Text entry	Ввод текста
+Theme	Тема
+Third-party cookies	Сторонние cookie
+This site JS	JS этого сайта
+TLS ticket saving	Сохранять билеты TLS
+Try again	Повторить
+UI LANGUAGE SAVED - RESTART TO APPLY	ЯЗЫК СОХРАНЁН — ПЕРЕЗАПУСТИТЕ
+Ukrainian	Украинский
+Update channel	Канал обновлений
+Update check	Проверка обновлений
+Updates	Обновления
+URL history	История адресов
+Verbose (RAM)	Подробно (ОЗУ)
+Version & system	Версия и система
+Version and update	Версия и обновление
+Video	Видео
+Video scaling	Масштаб видео
+Video start	Запуск видео
+Web pages	Веб-страницы
+Wi-Fi diagnostics	Диагностика Wi-Fi
+Wi-Fi profile	Профиль Wi-Fi
+X Cancel   O Back	X Отмена   O Назад
+X Download pack   O Back	X Скачать   O Назад
+X Install language   O Back	X Установить язык   O Назад
+X Open   O Back	X Открыть   O Назад
+X Open   O Back   Start Address	X Открыть   O Назад   Start Адрес
+X Open or toggle   O Back	X Открыть/изменить   O Назад
+X Reset   O Back	X Сбросить   O Назад
+Yes	Да
+YouTube home topics	Темы YouTube
+YouTube results	Результаты YouTube

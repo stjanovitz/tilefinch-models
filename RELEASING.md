@@ -36,6 +36,20 @@ Browser, voice, and glyph metadata use separate package-format identifiers,
 envelope magics, and signature domains. One artifact class cannot authorize
 another.
 
+## Publish interface translations
+
+Copy only the exact generated `.tful` files from the corresponding Tilefinch
+revision into `translations/ui/vN/`. Translation sources, generators, and
+native layout tests stay in the browser repository. Never change bytes at an
+already-published version path: new text requires a new version and matching
+browser catalog hashes. Keep older paths available for compatible builds.
+
+Run `python3 tests/test_ui_translations.py`, publish the files on `main`, then
+fetch every browser-catalog URL without authentication and compare its size
+and SHA-256 to that browser revision. Translation files use the browser's
+pinned SHA-256 rather than glyph-component signing envelopes. Publishing
+translations does not require a browser binary release.
+
 ## Build the voice component
 
 From the exact Tilefinch source revision being released:

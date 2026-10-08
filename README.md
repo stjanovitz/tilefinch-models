@@ -8,6 +8,19 @@ You do not need anything here to use the browser. Tilefinch includes compact
 CJK and emoji fallbacks out of the box, its normal keyboard is always
 available, and it never downloads an optional component automatically.
 
+## Interface translations
+
+This repository also hosts the data-only interface translations downloaded
+from **Settings → Appearance → Language & emoji → Interface language**.
+Available translations are Spanish, French, German, Japanese, Russian,
+Ukrainian, Simplified Chinese, Korean, Hindi and Arabic.
+
+The versioned files in `translations/ui/` are generated from the browser
+repository's translation sources. Each browser build pins the exact SHA-256
+of its compatible files; published version paths are immutable. Translation
+files cannot execute code. Choosing a language also installs its signed glyph
+pack when required. Missing or incompatible downloads leave English available.
+
 ## Language and emoji packs
 
 Language packs make more characters available and choose glyph shapes suited

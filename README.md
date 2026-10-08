@@ -21,6 +21,10 @@ of its compatible files; published version paths are immutable. Translation
 files cannot execute code. Choosing a language also installs its signed glyph
 pack when required. Missing or incompatible downloads leave English available.
 
+Version 4 adds translated menu-navigation instructions and Up/Down guidance.
+It is available for browser builds that pin that version; older catalogs stay
+unchanged. Its Hindi instructions require signed Devanagari pack revision 2.
+
 ## Language and emoji packs
 
 Language packs make more characters available and choose glyph shapes suited

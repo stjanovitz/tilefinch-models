@@ -1,0 +1,226 @@
+TFUI1	ja
+Active	使用中
+Add/remove bookmark	ブックマークの追加・削除
+Address	アドレス
+Advanced & experimental	詳細と試験的な機能
+Allow	許可
+Allow site	サイトを許可
+Alternate language	代替言語
+Always Reader	常にリーダー
+Analog cursor	アナログカーソル
+Analog moves the pointer or scrolls.	スティックでポインター移動・スクロール。
+Appearance	表示
+Arabic	アラビア語
+Ask	確認
+Audio & subtitles	音声と字幕
+Audio language	音声の言語
+Audio-only	音声のみ
+Auto	自動
+Auto Reader	自動リーダー
+Automatic	自動
+Back	戻る
+Basic	基本
+Basic view	簡易表示
+Basic view fallback	簡易表示への切り替え
+Beta	ベータ版
+Block	ブロック
+Bookmarks	ブックマーク
+Box	背景
+Browser text size	ブラウザーの文字サイズ
+Browser UI	表示サイズ
+Browsing & input	閲覧と入力
+Buffered	バッファを確保
+Built in	内蔵
+Built-in	内蔵
+Cancel	キャンセル
+Check for updates	更新を確認
+Check weekly	毎週確認
+Check Wi-Fi sign-in	Wi-Fiのログイン確認
+Checking	確認中
+Checking...	確認中...
+Chinese (Simplified)	中国語（簡体字）
+Chinese (Traditional)	中国語（繁体字）
+Chrome theme	テーマ
+Clear cache	キャッシュを消去
+Clear cookies	Cookieを消去
+Clear history	履歴を消去
+Clear playback positions	再生位置を消去
+Close	閉じる
+Collections	コレクション
+Color emoji pack	カラー絵文字パック
+Color pack	カラー絵文字
+Compact	コンパクト
+Content blocker	コンテンツブロック
+Content blocking	コンテンツのブロック
+Controls guide	操作ガイド
+Cookie notices	Cookieの通知
+Cookies & storage	Cookieと保存領域
+Custom	カスタム
+Cyrillic	キリル文字
+Dark	ダーク
+Default	標準
+Detailed	詳細
+Devanagari (Hindi)	デーヴァナーガリー（ヒンディー語）
+Device & storage	本体と保存
+Diagnostic QR	診断QR
+Downloading	ダウンロード中
+Downloading...	ダウンロード中...
+Embedded	内蔵
+Emoji	絵文字
+English	英語
+Error	エラー
+Exit to XMB	XMBに戻る
+Experimental	試験的な機能
+Extended Latin	拡張ラテン文字
+Extracted text	抽出した文字
+Find in page	ページ内検索
+Forward	進む
+French	フランス語
+Game buttons	ゲームのボタン
+German	ドイツ語
+Global off	全体でオフ
+Heavy pages	重いページ
+Hebrew	ヘブライ語
+Help & diagnostics	ヘルプと診断
+Hibernate tab	タブを退避
+Hidden	非表示
+Hide page ads	広告を非表示
+Hindi	ヒンディー語
+History	履歴
+Hold Start+Select for page controls.	Start+Select長押しでページ操作。
+Home	ホーム
+Home page	ホームページ
+Immediate	すぐに開始
+Install offline app	アプリをインストール
+Installed	インストール済み
+Installing	インストール中
+INSTALLING UI LANGUAGE	表示言語をインストール中
+Installing...	インストール中...
+Interface language	表示言語
+Japanese	日本語
+JavaScript	JavaScript
+Keyboard	キーボード
+Korean	韓国語
+L/R CATEGORY   X SELECT   O BACK	L/R 分類   X 選択   O 戻る
+Language	言語
+Language & emoji	言語と絵文字
+LANGUAGE DOWNLOAD CANCELLED	言語のダウンロードを中止しました
+LANGUAGE DOWNLOAD FAILED - TRY AGAIN	ダウンロードできませんでした。再試行してください
+Language pack	言語パック
+Large	大
+Last error summary	最後のエラー
+Left/Right choose   O Back	左右で選択   O 戻る
+Library	ライブラリ
+Licences	ライセンス
+Light	ライト
+Load allowlist	許可リストを読み込む
+Loading	読み込み中
+Medium	中
+Mixed HTTP (session)	混在HTTP（セッション）
+My links	自分のリンク
+Network profile	接続設定
+New	新しい
+Night mode	ナイトモード
+No	いいえ
+None	なし
+Not installed	未インストール
+O Back	O 戻る
+Off	オフ
+Offer language packs	言語パックの案内
+On	オン
+Original	元の言語
+Page colors	ページの色
+PAGE CONTROLS  HOLD START+SELECT TO EXIT	ページ操作   START+SELECT 長押しで終了
+PAGE CONTROLS  START+SELECT EXIT	ページ操作   START+SELECT 終了
+Page glyphs	ページの文字
+Page text size	ページの文字サイズ
+Page tools	ページの操作
+Per site	サイトごと
+Permissions & controls	権限と操作
+Press X again to exit	もう一度Xで終了
+Privacy & security	プライバシー
+Reader	リーダー
+Reader font	リーダーのフォント
+Reader mode	リーダーモード
+Ready	準備完了
+Reload	再読み込み
+Remember size	サイズを記憶
+Reset declined offers	非表示にした案内を戻す
+Restore page	ページを復元
+Resume saves	ダウンロードを再開
+Retry	再試行
+Run	実行
+Russian	ロシア語
+Save article	記事を保存
+Save error reports	エラーレポートの保存
+Save playback position	再生位置を保存
+Save playback positions	再生位置の保存
+Save screenshot	画面を保存
+Search	検索
+Search engine	検索エンジン
+Select: menu.  L/R: page/category.	Selectでメニュー。L/Rでページ・分類。
+Settings	設定
+Settings > Video > Audio & subtitles	設定 > 動画 > 音声と字幕
+Shadow	影
+Sharp	鮮明
+Shown	表示
+Site data & storage	サイトデータと保存領域
+Site information	サイト情報
+Site storage	サイトの保存領域
+Small	小
+Smooth	滑らか
+Spanish	スペイン語
+Stable	安定版
+Start opens Address.  Square reloads.	Startでアドレス。□で再読込。
+Subtitle background	字幕の背景
+Subtitle language	字幕の言語
+Subtitle size	字幕のサイズ
+Tabs	タブ
+Text entry	文字入力
+Theme	テーマ
+Third-party cookies	他サイトのCookie
+This site JS	このサイトのJS
+TLS ticket saving	TLSチケットを保存
+Try again	再試行
+UI LANGUAGE SAVED - RESTART TO APPLY	言語を保存しました。再起動してください
+Ukrainian	ウクライナ語
+Up/Down Part  O Back	上下で部分を選択   O 戻る
+Up/Down selects a menu item.	上下でメニュー項目を選択。
+Update channel	更新チャンネル
+Update check	更新の確認
+Updates	更新
+URL history	URLの履歴
+Verbose (RAM)	詳細（RAM）
+Version & system	バージョンと本体
+Version and update	バージョンと更新
+Video	動画
+Video scaling	動画の拡大
+Video start	動画の開始
+Web pages	ウェブページ
+Wi-Fi diagnostics	Wi-Fi診断
+Wi-Fi profile	Wi-Fi接続設定
+X Cancel   O Back	X キャンセル   O 戻る
+X Choose   O Return	X 選択   O 戻る
+X Confirm   O Back	X 決定   O 戻る
+X Confirm clear   O Cancel	X 消去を確認   O 中止
+X Delete   O Back	X 削除   O 戻る
+X Download pack   O Back	X ダウンロード   O 戻る
+X Install language   O Back	X 言語をインストール   O 戻る
+X Open   Left/Right change   O Back	X 開く   左右で変更   O 戻る
+X Open   O Back	X 開く   O 戻る
+X Open   O Back   Start Address	X 開く   O 戻る   Start アドレス
+X Open   Square Close   O Back	X 開く   □ 閉じる   O 戻る
+X OPEN   START SEARCH   SELECT MENU	X 開く   Start 検索   Select メニュー
+X Open / confirm   O Back	X 開く・決定   O 戻る
+X Open or toggle   O Back	X 開く・切替   O 戻る
+X OPEN WHEN READY   SELECT MENU	X 準備後に開く   Select メニュー
+X opens or toggles.  O goes back.	Xで開く・切替。Oで戻る。
+X or Left/Right change   L/R category   O Back	X/左右で変更   L/R 分類   O 戻る
+X or Left/Right change   L/R section	X/左右で変更   L/R 区分
+X or Left/Right change   O Back	X/左右で変更   O 戻る
+X Reset   O Back	X リセット   O 戻る
+X Retry   O Back	X 再試行   O 戻る
+X Select   O Back	X 選択   O 戻る
+Yes	はい
+YouTube home topics	YouTubeの話題
+YouTube results	YouTubeの検索結果

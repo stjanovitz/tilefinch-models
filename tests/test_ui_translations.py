@@ -8,7 +8,16 @@ class TranslationTests(unittest.TestCase):
     def test_catalogs_are_bounded_and_ordered(self):
         root = Path(__file__).resolve().parents[1] / "translations" / "ui"
         catalogs = sorted(root.glob("v*/*.tful"))
-        self.assertEqual(len(catalogs), 10)
+        expected = {
+            1: {"es", "fr", "de", "ja"},
+            2: {"ru", "uk", "zh-hans", "ko"},
+            3: {"hi", "ar"},
+            4: {"es", "fr", "de", "ja", "ru", "uk", "zh-hans", "ko", "hi", "ar"},
+        }
+        self.assertEqual({str(path.relative_to(root)) for path in catalogs}, {
+            f"v{version}/{language}.tful"
+            for version, languages in expected.items() for language in languages
+        })
         for path in catalogs:
             with self.subTest(path=path.relative_to(root)):
                 data = path.read_bytes()

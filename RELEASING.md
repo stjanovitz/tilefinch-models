@@ -118,13 +118,19 @@ the pinned dependencies must produce the same SHA-256.
 
 For Hindi, install `requirements-shaping.txt` instead. Use the static Noto
 Sans Devanagari Regular font, `manifests/devanagari.txt`, and the exact browser
-release's `translations/ui/v3/hi.sequences`. Add `--shaped-mono`; this requires
+release's active `translations/ui/vN/hi.sequences`. Add `--shaped-mono`; this requires
 HarfBuzz and FreeType explicitly and never silently uses scalar rendering.
 The browser consumes the pre-shaped longest cluster in one bounded cell.
 Common Hindi syllables and all current interface clusters are covered, not
 arbitrary OpenType shaping of every possible Devanagari sequence. Run
 `python3 tests/test_hindi_shaping.py inputs/NotoSansDevanagari-Regular.ttf`
 and inspect actual browser menu captures before signing the pack.
+
+Keep previous component releases unchanged. A new Hindi cluster inventory
+requires a new signed component sequence, even though the fixed download asset
+name still identifies the TFGF wire-format version. Publish every existing
+asset pair byte-for-byte in the new latest release alongside the revised Hindi
+pair so other languages and voice downloads continue to work.
 
 ## Sign a glyph pack
 

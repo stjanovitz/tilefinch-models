@@ -13,6 +13,7 @@ class TranslationTests(unittest.TestCase):
             2: {"ru", "uk", "zh-hans", "ko"},
             3: {"hi", "ar"},
             4: {"es", "fr", "de", "ja", "ru", "uk", "zh-hans", "ko", "hi", "ar"},
+            5: {"es", "fr", "de", "ja", "ru", "uk", "zh-hans", "ko", "hi", "ar"},
         }
         self.assertEqual({str(path.relative_to(root)) for path in catalogs}, {
             f"v{version}/{language}.tful"
@@ -27,7 +28,7 @@ class TranslationTests(unittest.TestCase):
                 self.assertTrue(text.endswith("\n"))
                 lines = text.splitlines()
                 self.assertEqual(lines[0], "TFUI1\t" + path.stem)
-                self.assertLessEqual(len(lines) - 1, 256)
+                self.assertLessEqual(len(lines) - 1, 320)
                 keys = []
                 for line in lines[1:]:
                     parts = line.split("\t")

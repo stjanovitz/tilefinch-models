@@ -25,6 +25,11 @@ Version 4 adds translated menu-navigation instructions and Up/Down guidance.
 It is available for browser builds that pin that version; older catalogs stay
 unchanged. Its Hindi instructions require signed Devanagari pack revision 2.
 
+Version 5 adds YouTube provider controls, account actions and feed/playback
+notices using the browser's selected interface language. Its Hindi labels
+require signed Devanagari pack revision 3. Earlier catalog versions remain
+unchanged for older browsers.
+
 ## Language and emoji packs
 
 Language packs make more characters available and choose glyph shapes suited

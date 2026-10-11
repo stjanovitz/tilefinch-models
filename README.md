@@ -34,6 +34,10 @@ Version 6 adds playlist, Watch Later and channel subscription controls. It
 uses the same Hindi cluster inventory and signed Devanagari pack revision 3
 as version 5. Earlier catalog versions remain unchanged.
 
+Version 7 adds translated native video-player controls, chapter selection,
+seek status and rotation guidance. Its Hindi labels require signed Devanagari
+pack revision 4. Earlier catalogs and component releases remain unchanged.
+
 ## Language and emoji packs
 
 Language packs make more characters available and choose glyph shapes suited

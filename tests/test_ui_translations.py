@@ -14,6 +14,7 @@ class TranslationTests(unittest.TestCase):
             3: {"hi", "ar"},
             4: {"es", "fr", "de", "ja", "ru", "uk", "zh-hans", "ko", "hi", "ar"},
             5: {"es", "fr", "de", "ja", "ru", "uk", "zh-hans", "ko", "hi", "ar"},
+            6: {"es", "fr", "de", "ja", "ru", "uk", "zh-hans", "ko", "hi", "ar"},
         }
         self.assertEqual({str(path.relative_to(root)) for path in catalogs}, {
             f"v{version}/{language}.tful"

@@ -30,6 +30,10 @@ notices using the browser's selected interface language. Its Hindi labels
 require signed Devanagari pack revision 3. Earlier catalog versions remain
 unchanged for older browsers.
 
+Version 6 adds playlist, Watch Later and channel subscription controls. It
+uses the same Hindi cluster inventory and signed Devanagari pack revision 3
+as version 5. Earlier catalog versions remain unchanged.
+
 ## Language and emoji packs
 
 Language packs make more characters available and choose glyph shapes suited

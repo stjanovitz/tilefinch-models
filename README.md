@@ -13,7 +13,7 @@ available, and it never downloads an optional component automatically.
 This repository also hosts the data-only interface translations downloaded
 from **Settings → Appearance → Language & emoji → Interface language**.
 Available translations are Spanish, French, German, Japanese, Russian,
-Ukrainian, Simplified Chinese, Korean, Hindi and Arabic.
+Ukrainian, Simplified Chinese, Korean, Hindi, Arabic and Portuguese.
 
 The versioned files in `translations/ui/` are generated from the browser
 repository's translation sources. Each browser build pins the exact SHA-256
@@ -37,6 +37,10 @@ as version 5. Earlier catalog versions remain unchanged.
 Version 7 adds translated native video-player controls, chapter selection,
 seek status and rotation guidance. Its Hindi labels require signed Devanagari
 pack revision 4. Earlier catalogs and component releases remain unchanged.
+
+Version 8 adds Portuguese, which uses the browser's built-in fonts and needs
+no additional glyph pack. Other languages retain their version 7 downloads;
+all earlier version paths remain unchanged.
 
 ## Language and emoji packs
 

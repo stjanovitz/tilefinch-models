@@ -13,7 +13,8 @@ available, and it never downloads an optional component automatically.
 This repository also hosts the data-only interface translations downloaded
 from **Settings → Appearance → Language & emoji → Interface language**.
 Available translations are Spanish, French, German, Japanese, Russian,
-Ukrainian, Simplified Chinese, Korean, Hindi, Arabic and Portuguese.
+Ukrainian, Simplified Chinese, Korean, Hindi, Arabic, Portuguese, Bengali and
+Assamese.
 
 The versioned files in `translations/ui/` are generated from the browser
 repository's translation sources. Each browser build pins the exact SHA-256
@@ -42,6 +43,11 @@ Version 8 adds Portuguese, which uses the browser's built-in fonts and needs
 no additional glyph pack. Other languages retain their version 7 downloads;
 all earlier version paths remain unchanged.
 
+Version 9 adds Bengali and Assamese using the shared Bengali-Assamese glyph
+pack. Version 10 adds playlist playback, queue and automatic-next controls
+for all available interface languages. Its Hindi labels require signed
+Devanagari pack revision 5; earlier downloads remain unchanged.
+
 ## Language and emoji packs
 
 Language packs make more characters available and choose glyph shapes suited
@@ -56,6 +62,7 @@ to a region:
 - Arabic
 - Hebrew
 - Devanagari (Hindi; pre-shaped common syllables and interface clusters)
+- Bengali-Assamese (pre-shaped common syllables and interface clusters)
 
 There is also an independent color emoji pack. Tilefinch keeps the selected
 language pack available and can attach other installed packs lazily when a

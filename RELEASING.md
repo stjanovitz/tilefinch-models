@@ -31,6 +31,7 @@ signed TFGM envelope:
 - `tilefinch-glyph-hebrew-v1.{tfgf,tfgm}`
 - `tilefinch-glyph-devanagari-v1.{tfgf,tfgm}`
 - `tilefinch-glyph-emoji-color-v1.{tfgf,tfgm}`
+- `tilefinch-glyph-bengali-assamese-v1.{tfgf,tfgm}`
 
 Browser, voice, and glyph metadata use separate package-format identifiers,
 envelope magics, and signature domains. One artifact class cannot authorize
@@ -125,6 +126,16 @@ Common Hindi syllables and all current interface clusters are covered, not
 arbitrary OpenType shaping of every possible Devanagari sequence. Run
 `python3 tests/test_hindi_shaping.py inputs/NotoSansDevanagari-Regular.ttf`
 and inspect actual browser menu captures before signing the pack.
+
+Bengali/Assamese candidates use `manifests/bengali-assamese.txt`, a pinned static
+Noto Sans Bengali Regular source, the bounded inventory exported by the browser's
+`tools/indic_sequences.py`, and `--shaped-mono --language bn` or `as`. Require
+the source cmap to contain the Assamese letters U+09F0 and U+09F1; run
+`tests/test_bengali_shaping.py <font>` before building. The producer rejects
+missing-glyph results instead of accepting a tofu box as valid ink. Qualify both
+languages against the exact inventory before sharing a component. This remains
+bounded pre-shaped coverage, not arbitrary runtime Indic shaping. Do not publish
+the candidate until browser layout, installation and refusal gates pass.
 
 Keep previous component releases unchanged. A new Hindi cluster inventory
 requires a new signed component sequence, even though the fixed download asset

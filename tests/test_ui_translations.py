@@ -16,6 +16,9 @@ class TranslationTests(unittest.TestCase):
             5: {"es", "fr", "de", "ja", "ru", "uk", "zh-hans", "ko", "hi", "ar"},
             6: {"es", "fr", "de", "ja", "ru", "uk", "zh-hans", "ko", "hi", "ar"},
             7: {"es", "fr", "de", "ja", "ru", "uk", "zh-hans", "ko", "hi", "ar"},
+            8: {"pt"},
+            9: {"bn", "as"},
+            10: {"es", "fr", "de", "ja", "ru", "uk", "zh-hans", "ko", "hi", "ar", "pt", "bn", "as"},
         }
         self.assertEqual({str(path.relative_to(root)) for path in catalogs}, {
             f"v{version}/{language}.tful"
@@ -30,7 +33,7 @@ class TranslationTests(unittest.TestCase):
                 self.assertTrue(text.endswith("\n"))
                 lines = text.splitlines()
                 self.assertEqual(lines[0], "TFUI1\t" + path.stem)
-                maximum_rows = 336 if path.parent.name == "v7" else 320
+                maximum_rows = 336 if int(path.parent.name[1:]) >= 7 else 320
                 self.assertLessEqual(len(lines) - 1, maximum_rows)
                 keys = []
                 for line in lines[1:]:

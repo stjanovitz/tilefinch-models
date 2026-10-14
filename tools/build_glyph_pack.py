@@ -181,12 +181,15 @@ class ShapedMonoRasterizer:
     Unlike the Pillow-only path, this explicitly requires HarfBuzz. Never
     silently rasterize Indic sequences as unrelated scalar glyphs.
     """
-    def __init__(self, path: Path, side: int):
+    def __init__(self, path: Path, side: int, language: str = "hi"):
         import freetype
         import uharfbuzz as hb
         from PIL import Image
         self.hb, self.ft, self.Image, self.side = hb, freetype, Image, side
         self.source = path.read_bytes()
+        if language not in ("hi", "bn", "as", "ja"):
+            raise ValueError("unsupported shaping language")
+        self.language = language
         self.font = hb.Font(hb.Face(self.source))
         hb.ot_font_set_funcs(self.font)
         self.font.scale = (side * 4 * 64, side * 4 * 64)
@@ -198,11 +201,13 @@ class ShapedMonoRasterizer:
         buffer = hb.Buffer()
         buffer.add_str("".join(chr(cp) for cp in codepoints))
         buffer.guess_segment_properties()
-        buffer.language = "hi"
+        buffer.language = self.language
         hb.shape(self.font, buffer)
         x = y = 0
         bitmaps = []
         for info, position in zip(buffer.glyph_infos, buffer.glyph_positions):
+            if info.codepoint == 0:
+                raise ValueError("font cannot shape the complete cluster")
             self.face.load_glyph(info.codepoint, ft.FT_LOAD_RENDER)
             slot = self.face.glyph
             bitmap = slot.bitmap
@@ -363,13 +368,13 @@ def command_build(args: argparse.Namespace) -> None:
     sequences = read_sequence_spec(Path(args.sequences) if args.sequences else None)
     # Every sequence scalar must be present in the font cmap except joiners,
     # variation selectors and keycap combining marks.
-    structural = {0x200D, 0x20E3, 0xFE0E, 0xFE0F}
+    structural = {0x200C, 0x200D, 0x20E3, 0xFE0E, 0xFE0F}
     sequences = [item for item in sequences
                  if all(value in supported or value in structural for value in item)]
     side = 20 if args.color else 16
     if args.shaped_mono and (args.color or args.weight is not None):
         raise ValueError("--shaped-mono requires a static monochrome font")
-    rasterizer = (ShapedMonoRasterizer(font_path, side) if args.shaped_mono
+    rasterizer = (ShapedMonoRasterizer(font_path, side, args.language) if args.shaped_mono
                   else FontRasterizer(font_path, args.color, side, args.weight))
     singles = render_glyphs(rasterizer, ((value,) for value in codepoints), args.color)
     sequence_glyphs = render_glyphs(rasterizer, sequences, args.color)
@@ -380,6 +385,7 @@ def command_build(args: argparse.Namespace) -> None:
         f"source-font-sha256={hashlib.sha256(font_path.read_bytes()).hexdigest()}\n"
         + (f"raster-weight={args.weight}\n" if args.weight is not None else "")
         + ("raster-shaper=harfbuzz\n" if args.shaped_mono else "")
+        + (f"shaping-language={args.language}\n" if args.shaped_mono and args.language != "hi" else "")
         +
         "The following upstream license applies to the rasterized font data.\n\n"
     ).encode("utf-8")
@@ -402,6 +408,8 @@ def parser() -> argparse.ArgumentParser:
     result.add_argument("--color", action="store_true")
     result.add_argument("--shaped-mono", action="store_true",
                         help="shape clusters with HarfBuzz and rasterize with FreeType")
+    result.add_argument("--language", choices=("hi", "bn", "as", "ja"), default="hi",
+                        help="offline HarfBuzz language; existing Hindi output stays unchanged")
     result.add_argument("--weight", type=int)
     result.add_argument("--output", required=True)
     return result

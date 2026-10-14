@@ -1,0 +1,4 @@
+# Bengali and Assamese share the Bengali Unicode block.
+# Assamese ra and wa (09F0, 09F1) are included explicitly by this range.
+0964-0965
+0980-09FF

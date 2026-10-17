@@ -1,0 +1,386 @@
+TFUI1	ja
+Account	アカウント
+Active	使用中
+Add to this playlist	このリストに追加
+Add/remove bookmark	ブックマークの追加・削除
+Added to playlist.	リストに追加しました。
+Address	アドレス
+Advanced & experimental	詳細と試験的な機能
+Allow	許可
+Allow site	サイトを許可
+Alternate language	代替言語
+Always Reader	常にリーダー
+Analog cursor	アナログカーソル
+Analog moves the pointer or scrolls.	スティックでポインター移動・スクロール。
+Appearance	表示
+Arabic	アラビア語
+Ask	確認
+Assamese	アッサム語
+Audio	音声
+Audio & subtitles	音声と字幕
+Audio language	音声の言語
+Audio-only	音声のみ
+Auto	自動
+Auto Reader	自動リーダー
+Automatic	自動
+Automatic next: Off	自動再生：オフ
+Automatic next: On	自動再生：オン
+Back	戻る
+Back to video	動画に戻る
+Basic	基本
+Basic view	簡易表示
+Basic view fallback	簡易表示への切り替え
+Bengali	ベンガル語
+Bengali-Assamese	ベンガル・アッサム語
+Beta	ベータ版
+Block	ブロック
+Bookmarks	ブックマーク
+Box	背景
+Browser text size	ブラウザーの文字サイズ
+Browser UI	表示サイズ
+Browsing & input	閲覧と入力
+Buffered	バッファを確保
+Built in	内蔵
+Built-in	内蔵
+bytes	バイト
+Cancel	キャンセル
+Category	カテゴリ
+Channel videos	チャンネルの動画
+Chapters	チャプター
+Check for updates	更新を確認
+Check weekly	毎週確認
+Check Wi-Fi sign-in	Wi-Fiのログイン確認
+Checking	確認中
+Checking...	確認中...
+Chinese (Simplified)	中国語（簡体字）
+Chinese (Traditional)	中国語（繁体字）
+Chrome theme	テーマ
+Clear cache	キャッシュを消去
+Clear cookies	Cookieを消去
+Clear history	履歴を消去
+Clear playback positions	再生位置を消去
+Close	閉じる
+Collections	コレクション
+Color emoji pack	カラー絵文字パック
+Color pack	カラー絵文字
+Comments	コメント
+Compact	コンパクト
+Content blocker	コンテンツブロック
+Content blocking	コンテンツのブロック
+Continue from	続きから
+Controls guide	操作ガイド
+Cookie notices	Cookieの通知
+Cookies & storage	Cookieと保存領域
+Custom	カスタム
+Cyrillic	キリル文字
+Dark	ダーク
+Default	標準
+Description	説明
+Detailed	詳細
+Devanagari (Hindi)	デーヴァナーガリー（ヒンディー語）
+Device & storage	本体と保存
+Diagnostic QR	診断QR
+Download focused link	選択リンクをダウンロード
+DOWNLOAD PAUSED	ダウンロード一時停止
+Downloaded ZIP files are kept.	ダウンロードしたZIPは保持。
+Downloaded ZIPs are managed separately.	ZIPファイルは別に管理します。
+Downloading	ダウンロード中
+Downloading...	ダウンロード中...
+Downloads	ダウンロード
+Embedded	内蔵
+Emoji	絵文字
+English	英語
+Error	エラー
+Existing folders are not replaced.	既存フォルダーは上書きしません。
+Exit to XMB	XMBに戻る
+Experimental	試験的な機能
+Explore topics are unavailable. Search above to find videos.	話題を取得できません。上で動画を検索。
+Explore YouTube	YouTubeを探す
+Extended Latin	拡張ラテン文字
+Extracted text	抽出した文字
+extras kept in ZIP	ZIP内の追加ファイル
+FILE ADDED TO DOWNLOAD QUEUE	ダウンロード待ちに追加
+File download	ファイルのダウンロード
+FILE DOWNLOAD STARTED	ダウンロード開始
+FILE QUEUED - OPEN DOWNLOADS TO RETRY	ダウンロード画面で再試行
+File saved	保存したファイル
+files	ファイル
+Files are not installed or run.	インストール・実行はしません。
+Find in page	ページ内検索
+Forward	進む
+French	フランス語
+Game buttons	ゲームのボタン
+German	ドイツ語
+Global off	全体でオフ
+Heavy pages	重いページ
+Hebrew	ヘブライ語
+Help & diagnostics	ヘルプと診断
+Hibernate tab	タブを退避
+Hidden	非表示
+Hide page ads	広告を非表示
+Hindi	ヒンディー語
+History	履歴
+Hold Start+Select for page controls.	Start+Select長押しでページ操作。
+Home	ホーム
+Home page	ホームページ
+HOMEBREW REMOVED - DOWNLOADS UNCHANGED	アプリを削除。ダウンロードは保持
+Immediate	すぐに開始
+Install homebrew?	自作ソフトをインストール？
+Install offline app	アプリをインストール
+INSTALLATION CANCELLED - ARCHIVE KEPT	インストール中止。ZIPは保持
+Installed	インストール済み
+Installed homebrew	インストール済み自作ソフト
+INSTALLED TO PSP/GAME - ARCHIVE KEPT	PSP/GAMEにインストール。ZIPは保持
+Installing	インストール中
+INSTALLING HOMEBREW - O CANCEL	インストール中   O キャンセル
+INSTALLING UI LANGUAGE	表示言語をインストール中
+Installing...	インストール中...
+Interface language	表示言語
+Japanese	日本語
+JavaScript	JavaScript
+Keep this file, or copy it elsewhere using USB storage.	保持するか、USB接続でコピーできます。
+Keyboard	キーボード
+Korean	韓国語
+L/R  X SELECT  O BACK	L/R  X 選択  O 戻る
+L/R CATEGORY   X SELECT   O BACK	L/R 分類   X 選択   O 戻る
+Language	言語
+Language & emoji	言語と絵文字
+LANGUAGE DOWNLOAD CANCELLED	言語のダウンロードを中止しました
+LANGUAGE DOWNLOAD FAILED - TRY AGAIN	ダウンロードできませんでした。再試行してください
+Language pack	言語パック
+Large	大
+Last error summary	最後のエラー
+Left/Right choose   O Back	左右で選択   O 戻る
+Library	ライブラリ
+Licences	ライセンス
+Light	ライト
+Like	高評価
+Like failed - select Like to retry.	保存失敗。高評価で再試行。
+Like removed.	高評価を取り消しました。
+LIVE	ライブ
+Load allowlist	許可リストを読み込む
+Load more	もっと見る
+Load more comments	コメントをさらに読む
+Load more results	結果をさらに読む
+Loading	読み込み中
+Loading playlist...	再生リストを読込中...
+Manage apps installed by Tilefinch	Tilefinchで入れたアプリを管理
+MB free	MB 空き
+Medium	中
+Memory Stick file	メモリースティックのファイル
+Mixed HTTP (session)	混在HTTP（セッション）
+My links	自分のリンク
+Network profile	接続設定
+New	新しい
+New suggestions ready - select Refresh.	新しいおすすめがあります。更新を選択。
+Night mode	ナイトモード
+No	いいえ
+No entries were returned. Sign in or try again.	項目がありません。ログインまたは再試行。
+No installed homebrew found.	自作ソフトはありません。
+No playable video results were present in the bounded public response. Try another search.	再生可能な動画がありません。別の検索をお試しください。
+No public comments were returned within the bounded request.	公開コメントを取得できませんでした。
+No public video entries were present in the bounded channel response.	公開動画が見つかりませんでした。
+No videos are available in this feed yet.	このフィードに動画はまだありません。
+None	なし
+Not confirmed. Select again to retry.	未確認。再選択で再試行。
+Not installed	未インストール
+O Back	O 戻る
+Off	オフ
+Offer language packs	言語パックの案内
+On	オン
+Only apps installed by Tilefinch appear here.	Tilefinchで入れたアプリだけ表示。
+Only install software you trust.	信頼できるソフトだけ入れてください。
+Open video details	動画の詳細を開く
+Original	元の言語
+Page colors	ページの色
+PAGE CONTROLS  HOLD START+SELECT TO EXIT	ページ操作   START+SELECT 長押しで終了
+PAGE CONTROLS  START+SELECT EXIT	ページ操作   START+SELECT 終了
+Page glyphs	ページの文字
+Page text size	ページの文字サイズ
+Page tools	ページの操作
+Per site	サイトごと
+percent watched	パーセント視聴済み
+Permissions & controls	権限と操作
+Play all	すべて再生
+Play from here	ここから再生
+Play video	動画を再生
+Playlist	再生リスト
+Playlist could not load	再生リストを読めません
+Playlists	再生リスト
+Portuguese	ポルトガル語
+Preparing resumable download	再開可能なダウンロードを準備
+PRESS SQUARE AGAIN TO DELETE	もう一度□で削除
+Press X again to exit	もう一度Xで終了
+Privacy & security	プライバシー
+Published	公開日
+Queue	再生キュー
+R Skip   Triangle Queue	R スキップ  TRI キュー
+Reader	リーダー
+Reader font	リーダーのフォント
+Reader mode	リーダーモード
+Ready	準備完了
+Recent public uploads from this channel.	このチャンネルの最近の公開動画。
+Recently watched	最近見た動画
+Recommendations	おすすめ
+Recommended for you	あなたへのおすすめ
+Refresh suggestions	おすすめ更新
+Reload	再読み込み
+Reloading suggestions...	おすすめを更新中…
+Remember size	サイズを記憶
+REMOVAL STOPPED - RETRY TO FINISH	削除を停止。再試行で続行
+Remove	削除
+Remove from Watch Later	後で見るから削除
+Remove homebrew?	自作ソフトを削除？
+Removed from playlist.	リストから削除しました。
+REMOVING HOMEBREW - O STOP	削除中   O 停止
+Removing like...	高評価を取消中…
+Reset declined offers	非表示にした案内を戻す
+Restore page	ページを復元
+Resume saves	ダウンロードを再開
+Retry	再試行
+Retry queue	キューを再試行
+Run	実行
+Russian	ロシア語
+Save article	記事を保存
+Save error reports	エラーレポートの保存
+Save file?	ファイルを保存？
+Save playback position	再生位置を保存
+Save playback positions	再生位置の保存
+Save screenshot	画面を保存
+Save to playlist	再生リストに保存
+Save to the Memory Stick.	メモリースティックに保存。
+Save video offline	動画をオフライン保存
+Saved data inside it will also be deleted.	中のセーブデータも削除します。
+SAVING DOWNLOAD  O PAUSE	ダウンロード中   O 停止
+Saving like...	高評価を保存中…
+Search	検索
+Search above or select Refresh.	上で検索するか更新を選択。
+Search engine	検索エンジン
+Search results	検索結果
+Search YouTube	YouTubeを検索
+SEEK	シーク
+Select Account again to close.	アカウントを再選択して閉じる。
+Select an action.	操作を選択。
+Select Like or Unlike.	高評価か取消を選択。
+SELECT ROTATE	SELECT 回転
+Select the thumbnail to retry playback. The player provides play, pause, seek, time, and exit controls.	サムネイルを選択して再試行。プレイヤーで再生・一時停止・シーク・終了ができます。
+Select: menu.  L/R: page/category.	Selectでメニュー。L/Rでページ・分類。
+Settings	設定
+Settings > Video > Audio & subtitles	設定 > 動画 > 音声と字幕
+Shadow	影
+Sharp	鮮明
+Shown	表示
+Sign in	ログイン
+Sign in to like this video.	高評価するにはログイン。
+Sign in to unlike this video.	高評価を取り消すにはログイン。
+Sign in to use this action.	この操作にはログインが必要。
+Sign in to view your subscriptions.	登録チャンネルを見るにはログイン。
+Sign out	ログアウト
+Signed in on this device.	この本体でログイン中。
+Site data & storage	サイトデータと保存領域
+Site information	サイト情報
+Site storage	サイトの保存領域
+Small	小
+Smooth	滑らか
+Spanish	スペイン語
+SQUARE DELETE   O CANCEL	□ 削除   O キャンセル
+Stable	安定版
+Start opens Address.  Square reloads.	Startでアドレス。□で再読込。
+STICK/L/R SEEK  X PAUSE	STICK/L/R シーク  X 停止
+STICK/L/R SEEK  X PLAY	STICK/L/R シーク  X 再生
+Subscribe	登録
+Subscribed.	登録しました。
+Subscriptions	登録チャンネル
+Subtitle background	字幕の背景
+Subtitle language	字幕の言語
+Subtitle size	字幕のサイズ
+Subtitles	字幕
+Suggestions	おすすめ
+Suggestions unavailable - try Refresh.	おすすめを取得できません。更新で再試行。
+Suggestions up to date.	おすすめは最新です。
+Suggestions will load in the background.	おすすめをバックグラウンドで読み込みます。
+Switch account	アカウント切替
+Tabs	タブ
+Text entry	文字入力
+The link is kept for retry.	再試行用にリンクを保存します。
+The server may change the filename.	サーバーが名前を変える場合あり。
+The whole app folder will be deleted.	アプリのフォルダー全体を削除。
+The ZIP is kept. Nothing runs automatically.	ZIPは保持。自動実行はしません。
+Theme	テーマ
+Third-party cookies	他サイトのCookie
+This site JS	このサイトのJS
+TLS ticket saving	TLSチケットを保存
+Try again	再試行
+UI LANGUAGE SAVED - RESTART TO APPLY	言語を保存しました。再起動してください
+Ukrainian	ウクライナ語
+Unlike	高評価を取消
+Unlike failed - select Unlike to retry.	取消失敗。取消で再試行。
+Unsubscribe	登録解除
+Unsubscribed.	登録を解除しました。
+Up next	次の動画
+Up/Down Part  O Back	上下で部分を選択   O 戻る
+Up/Down selects a menu item.	上下でメニュー項目を選択。
+Update channel	更新チャンネル
+Update check	更新の確認
+Updates	更新
+Updating...	更新中...
+URL history	URLの履歴
+Verbose (RAM)	詳細（RAM）
+Version & system	バージョンと本体
+Version and update	バージョンと更新
+Video	動画
+Video liked.	高評価を保存しました。
+Video scaling	動画の拡大
+Video start	動画の開始
+View comments	コメントを見る
+View full description	説明をすべて見る
+Watch Later	後で見る
+Watch YouTube on this device	この本体でYouTubeを見る
+watched	視聴済み
+Web pages	ウェブページ
+Wi-Fi diagnostics	Wi-Fi診断
+Wi-Fi profile	Wi-Fi接続設定
+X Cancel   O Back	X キャンセル   O 戻る
+X Choose   O Return	X 選択   O 戻る
+X Confirm   O Back	X 決定   O 戻る
+X Confirm clear   O Cancel	X 消去を確認   O 中止
+X Delete   O Back	X 削除   O 戻る
+X DETAILS   SQUARE DELETE   L/R SECTION	X 詳細   □ 削除   L/R 分類
+X Download pack   O Back	X ダウンロード   O 戻る
+X GO   O CANCEL	X 決定   O 中止
+X Install   O Cancel	X インストール   O キャンセル
+X Install language   O Back	X 言語をインストール   O 戻る
+X OPEN   L/R SECTION	X 開く   L/R 分類
+X Open   Left/Right change   O Back	X 開く   左右で変更   O 戻る
+X Open   O Back	X 開く   O 戻る
+X Open   O Back   Start Address	X 開く   O 戻る   Start アドレス
+X Open   Square Close   O Back	X 開く   □ 閉じる   O 戻る
+X OPEN   START SEARCH   SELECT MENU	X 開く   Start 検索   Select メニュー
+X Open / confirm   O Back	X 開く・決定   O 戻る
+X Open or toggle   O Back	X 開く・切替   O 戻る
+X OPEN WHEN READY   SELECT MENU	X 準備後に開く   Select メニュー
+X opens or toggles.  O goes back.	Xで開く・切替。Oで戻る。
+X or Left/Right change   L/R category   O Back	X/左右で変更   L/R 分類   O 戻る
+X or Left/Right change   L/R section	X/左右で変更   L/R 区分
+X or Left/Right change   O Back	X/左右で変更   O 戻る
+X PAUSE	X 停止
+X PAUSE   SQUARE DELETE   L/R SECTION	X 停止   □ 削除   L/R 分類
+X PAUSE  TRI MENU  L/R SEEK	X 停止  TRI メニュー  L/R シーク
+X PAUSE  TRI QUEUE  L/R VIDEO	X 一時停止  TRI キュー  L/R 動画
+X PAUSE  TRI TRACKS	X 停止  TRI トラック
+X PLAY	X 再生
+X PLAY  TRI MENU  L/R SEEK	X 再生  TRI メニュー  L/R シーク
+X PLAY  TRI QUEUE  L/R VIDEO	X 再生  TRI キュー  L/R 動画
+X PLAY  TRI TRACKS	X 再生  TRI トラック
+X Remove   O Cancel	X 削除   O キャンセル
+X Reset   O Back	X リセット   O 戻る
+X RESUME   SQUARE DELETE   L/R SECTION	X 再開   □ 削除   L/R 分類
+X Retry   O Back	X 再試行   O 戻る
+X Save   O Cancel	X 保存   O キャンセル
+X Select   O Back	X 選択   O 戻る
+Yes	はい
+Your playlists	自分の再生リスト
+Your subscriptions	登録チャンネル
+YouTube account	YouTubeアカウント
+YouTube home topics	YouTubeの話題
+YouTube results	YouTubeの検索結果

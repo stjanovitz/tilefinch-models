@@ -1,0 +1,386 @@
+TFUI1	ko
+Account	계정
+Active	사용 중
+Add to this playlist	이 목록에 추가
+Add/remove bookmark	북마크 추가/삭제
+Added to playlist.	목록에 추가됨.
+Address	주소
+Advanced & experimental	고급 및 실험 기능
+Allow	허용
+Allow site	사이트 허용
+Alternate language	대체 언어
+Always Reader	항상 읽기 모드
+Analog cursor	아날로그 커서
+Analog moves the pointer or scrolls.	스틱으로 포인터 이동/스크롤.
+Appearance	화면
+Arabic	아랍어
+Ask	묻기
+Assamese	아삼어
+Audio	오디오
+Audio & subtitles	오디오 및 자막
+Audio language	오디오 언어
+Audio-only	오디오만
+Auto	자동
+Auto Reader	자동 읽기
+Automatic	자동
+Automatic next: Off	자동 다음: 끔
+Automatic next: On	자동 다음: 켬
+Back	뒤로
+Back to video	영상으로 돌아가기
+Basic	기본
+Basic view	간소화 보기
+Basic view fallback	간소화 보기 전환
+Bengali	벵골어
+Bengali-Assamese	벵골어/아삼어
+Beta	베타
+Block	차단
+Bookmarks	북마크
+Box	상자
+Browser text size	브라우저 글자 크기
+Browser UI	브라우저 인터페이스
+Browsing & input	탐색 및 입력
+Buffered	버퍼 후 시작
+Built in	내장
+Built-in	내장
+bytes	바이트
+Cancel	취소
+Category	카테고리
+Channel videos	채널 영상
+Chapters	챕터
+Check for updates	업데이트 확인
+Check weekly	매주 확인
+Check Wi-Fi sign-in	Wi-Fi 로그인 확인
+Checking	확인 중
+Checking...	확인 중...
+Chinese (Simplified)	중국어 (간체)
+Chinese (Traditional)	중국어 (번체)
+Chrome theme	인터페이스 테마
+Clear cache	캐시 삭제
+Clear cookies	쿠키 삭제
+Clear history	방문 기록 삭제
+Clear playback positions	재생 위치 삭제
+Close	닫기
+Collections	모음
+Color emoji pack	컬러 이모지 팩
+Color pack	컬러 팩
+Comments	댓글
+Compact	간결하게
+Content blocker	콘텐츠 차단
+Content blocking	콘텐츠 차단
+Continue from	이어서 보기
+Controls guide	조작 안내
+Cookie notices	쿠키 알림
+Cookies & storage	쿠키 및 저장소
+Custom	사용자 지정
+Cyrillic	키릴 문자
+Dark	어두움
+Default	기본값
+Description	설명
+Detailed	자세히
+Devanagari (Hindi)	데바나가리 (힌디어)
+Device & storage	기기 및 저장소
+Diagnostic QR	진단 QR
+Download focused link	선택한 링크 다운로드
+DOWNLOAD PAUSED	다운로드 일시 중지
+Downloaded ZIP files are kept.	다운로드한 ZIP은 보관됩니다.
+Downloaded ZIPs are managed separately.	다운로드한 ZIP은 별도로 관리합니다.
+Downloading	다운로드 중
+Downloading...	다운로드 중...
+Downloads	다운로드
+Embedded	내장
+Emoji	이모지
+English	영어
+Error	오류
+Existing folders are not replaced.	기존 폴더는 덮어쓰지 않습니다.
+Exit to XMB	XMB로 나가기
+Experimental	실험 기능
+Explore topics are unavailable. Search above to find videos.	주제를 불러올 수 없음. 위에서 검색하세요.
+Explore YouTube	YouTube 탐색
+Extended Latin	확장 라틴 문자
+Extracted text	추출된 텍스트
+extras kept in ZIP	ZIP에 남은 기타 파일
+FILE ADDED TO DOWNLOAD QUEUE	파일이 대기열에 추가됨
+File download	파일 다운로드
+FILE DOWNLOAD STARTED	다운로드 시작됨
+FILE QUEUED - OPEN DOWNLOADS TO RETRY	다운로드 목록에서 재시도
+File saved	파일 저장됨
+files	파일
+Files are not installed or run.	설치하거나 실행하지 않습니다.
+Find in page	페이지에서 찾기
+Forward	앞으로
+French	프랑스어
+Game buttons	게임 버튼
+German	독일어
+Global off	전체 끄기
+Heavy pages	무거운 페이지
+Hebrew	히브리어
+Help & diagnostics	도움말 및 진단
+Hibernate tab	탭 절전
+Hidden	숨김
+Hide page ads	광고 숨기기
+Hindi	힌디어
+History	방문 기록
+Hold Start+Select for page controls.	Start+Select 길게: 페이지 조작.
+Home	홈
+Home page	홈페이지
+HOMEBREW REMOVED - DOWNLOADS UNCHANGED	앱 삭제됨. 다운로드 유지
+Immediate	즉시
+Install homebrew?	홈브류를 설치할까요?
+Install offline app	오프라인 앱 설치
+INSTALLATION CANCELLED - ARCHIVE KEPT	설치 취소됨. ZIP 보관
+Installed	설치됨
+Installed homebrew	설치된 홈브류
+INSTALLED TO PSP/GAME - ARCHIVE KEPT	PSP/GAME에 설치됨. ZIP 보관
+Installing	설치 중
+INSTALLING HOMEBREW - O CANCEL	설치 중   O 취소
+INSTALLING UI LANGUAGE	인터페이스 언어 설치 중
+Installing...	설치 중...
+Interface language	인터페이스 언어
+Japanese	일본어
+JavaScript	JavaScript
+Keep this file, or copy it elsewhere using USB storage.	파일을 보관하거나 USB로 복사하세요.
+Keyboard	키보드
+Korean	한국어
+L/R  X SELECT  O BACK	L/R  X 선택  O 뒤로
+L/R CATEGORY   X SELECT   O BACK	L/R 분류   X 선택   O 뒤로
+Language	언어
+Language & emoji	언어 및 이모지
+LANGUAGE DOWNLOAD CANCELLED	언어 다운로드 취소됨
+LANGUAGE DOWNLOAD FAILED - TRY AGAIN	언어 다운로드 실패 — 다시 시도
+Language pack	언어 팩
+Large	크게
+Last error summary	최근 오류 요약
+Left/Right choose   O Back	좌우 선택   O 뒤로
+Library	라이브러리
+Licences	라이선스
+Light	밝음
+Like	좋아요
+Like failed - select Like to retry.	실패. 좋아요를 다시 선택하세요.
+Like removed.	좋아요가 취소됨.
+LIVE	실시간
+Load allowlist	허용 목록 불러오기
+Load more	더 보기
+Load more comments	댓글 더 보기
+Load more results	결과 더 보기
+Loading	불러오는 중
+Loading playlist...	재생목록 불러오는 중...
+Manage apps installed by Tilefinch	Tilefinch로 설치한 앱 관리
+MB free	MB 여유
+Medium	중간
+Memory Stick file	메모리 스틱 파일
+Mixed HTTP (session)	혼합 HTTP (세션)
+My links	내 링크
+Network profile	네트워크 프로필
+New	새 항목
+New suggestions ready - select Refresh.	새 추천이 준비됨. 새로고침하세요.
+Night mode	야간 모드
+No	아니요
+No entries were returned. Sign in or try again.	항목 없음. 로그인하거나 다시 시도하세요.
+No installed homebrew found.	설치된 홈브류가 없습니다.
+No playable video results were present in the bounded public response. Try another search.	재생 가능한 영상이 없음. 다른 검색을 시도하세요.
+No public comments were returned within the bounded request.	공개 댓글을 받지 못했습니다.
+No public video entries were present in the bounded channel response.	공개 영상을 찾지 못했습니다.
+No videos are available in this feed yet.	이 피드에 아직 영상이 없습니다.
+None	없음
+Not confirmed. Select again to retry.	미확인. 다시 선택하세요.
+Not installed	미설치
+O Back	O 뒤로
+Off	끄기
+Offer language packs	언어 팩 제안
+On	켜기
+Only apps installed by Tilefinch appear here.	Tilefinch로 설치한 앱만 표시됩니다.
+Only install software you trust.	신뢰하는 소프트웨어만 설치하세요.
+Open video details	영상 상세 정보
+Original	원본
+Page colors	웹페이지 색상
+PAGE CONTROLS  HOLD START+SELECT TO EXIT	페이지 조작   START+SELECT 길게: 종료
+PAGE CONTROLS  START+SELECT EXIT	페이지 조작   START+SELECT 종료
+Page glyphs	웹페이지 글꼴
+Page text size	웹페이지 글자 크기
+Page tools	페이지 도구
+Per site	사이트별
+percent watched	퍼센트 시청됨
+Permissions & controls	권한 및 제어
+Play all	모두 재생
+Play from here	여기부터 재생
+Play video	영상 재생
+Playlist	재생목록
+Playlist could not load	재생목록을 불러올 수 없음
+Playlists	재생목록
+Portuguese	포르투갈어
+Preparing resumable download	이어받기 준비 중
+PRESS SQUARE AGAIN TO DELETE	□를 다시 눌러 삭제
+Press X again to exit	X를 다시 눌러 종료
+Privacy & security	개인정보 및 보안
+Published	게시일
+Queue	재생 대기열
+R Skip   Triangle Queue	R 건너뛰기  TRI 대기열
+Reader	읽기
+Reader font	읽기 글꼴
+Reader mode	읽기 모드
+Ready	준비됨
+Recent public uploads from this channel.	이 채널의 최근 공개 영상.
+Recently watched	최근 시청
+Recommendations	추천
+Recommended for you	맞춤 추천
+Refresh suggestions	추천 새로고침
+Reload	새로고침
+Reloading suggestions...	추천 새로고침 중…
+Remember size	크기 기억
+REMOVAL STOPPED - RETRY TO FINISH	삭제 중단됨. 다시 시도하세요
+Remove	삭제
+Remove from Watch Later	나중에 볼 목록에서 삭제
+Remove homebrew?	홈브류를 삭제할까요?
+Removed from playlist.	목록에서 삭제됨.
+REMOVING HOMEBREW - O STOP	삭제 중   O 중단
+Removing like...	좋아요 취소 중…
+Reset declined offers	거절한 제안 초기화
+Restore page	페이지 복원
+Resume saves	다운로드 재개
+Retry	다시 시도
+Retry queue	대기열 다시 시도
+Run	실행
+Russian	러시아어
+Save article	문서 저장
+Save error reports	오류 보고서 저장
+Save file?	파일을 저장할까요?
+Save playback position	재생 위치 저장
+Save playback positions	재생 위치 저장
+Save screenshot	화면 캡처 저장
+Save to playlist	재생목록에 저장
+Save to the Memory Stick.	메모리 스틱에 저장합니다.
+Save video offline	영상 오프라인 저장
+Saved data inside it will also be deleted.	폴더 안 저장 데이터도 삭제됩니다.
+SAVING DOWNLOAD  O PAUSE	다운로드 중   O 정지
+Saving like...	좋아요 저장 중…
+Search	검색
+Search above or select Refresh.	위에서 검색하거나 새로고침하세요.
+Search engine	검색 엔진
+Search results	검색 결과
+Search YouTube	YouTube 검색
+SEEK	탐색
+Select Account again to close.	계정을 다시 선택하면 닫힙니다.
+Select an action.	작업을 선택하세요.
+Select Like or Unlike.	좋아요 또는 취소를 선택하세요.
+SELECT ROTATE	SELECT 회전
+Select the thumbnail to retry playback. The player provides play, pause, seek, time, and exit controls.	썸네일을 선택해 다시 재생하세요. 플레이어에서 재생, 일시정지, 탐색, 종료가 가능합니다.
+Select: menu.  L/R: page/category.	Select 메뉴. L/R 페이지/분류.
+Settings	설정
+Settings > Video > Audio & subtitles	설정 > 동영상 > 오디오 및 자막
+Shadow	그림자
+Sharp	선명하게
+Shown	표시
+Sign in	로그인
+Sign in to like this video.	좋아요를 누르려면 로그인하세요.
+Sign in to unlike this video.	좋아요를 취소하려면 로그인하세요.
+Sign in to use this action.	로그인 후 이용하세요.
+Sign in to view your subscriptions.	구독을 보려면 로그인하세요.
+Sign out	로그아웃
+Signed in on this device.	이 기기에 로그인됨.
+Site data & storage	사이트 데이터 및 저장소
+Site information	사이트 정보
+Site storage	사이트 저장소
+Small	작게
+Smooth	부드럽게
+Spanish	스페인어
+SQUARE DELETE   O CANCEL	□ 삭제   O 취소
+Stable	안정판
+Start opens Address.  Square reloads.	Start 주소. □ 새로고침.
+STICK/L/R SEEK  X PAUSE	STICK/L/R 탐색  X 정지
+STICK/L/R SEEK  X PLAY	STICK/L/R 탐색  X 재생
+Subscribe	구독
+Subscribed.	구독됨.
+Subscriptions	구독
+Subtitle background	자막 배경
+Subtitle language	자막 언어
+Subtitle size	자막 크기
+Subtitles	자막
+Suggestions	추천
+Suggestions unavailable - try Refresh.	추천을 불러올 수 없음. 새로고침하세요.
+Suggestions up to date.	최신 추천입니다.
+Suggestions will load in the background.	추천이 백그라운드에서 로드됩니다.
+Switch account	계정 전환
+Tabs	탭
+Text entry	문자 입력
+The link is kept for retry.	재시도를 위해 링크를 보관합니다.
+The server may change the filename.	서버가 파일명을 바꿀 수 있습니다.
+The whole app folder will be deleted.	앱 폴더 전체가 삭제됩니다.
+The ZIP is kept. Nothing runs automatically.	ZIP은 보관됩니다. 자동 실행 안 함.
+Theme	테마
+Third-party cookies	타사 쿠키
+This site JS	이 사이트 JS
+TLS ticket saving	TLS 티켓 저장
+Try again	다시 시도
+UI LANGUAGE SAVED - RESTART TO APPLY	언어 저장됨 — 다시 시작하세요
+Ukrainian	우크라이나어
+Unlike	좋아요 취소
+Unlike failed - select Unlike to retry.	실패. 취소를 다시 선택하세요.
+Unsubscribe	구독 취소
+Unsubscribed.	구독 취소됨.
+Up next	다음 영상
+Up/Down Part  O Back	상하 부분 선택   O 뒤로
+Up/Down selects a menu item.	상하로 메뉴 항목 선택.
+Update channel	업데이트 채널
+Update check	업데이트 확인
+Updates	업데이트
+Updating...	업데이트 중...
+URL history	주소 기록
+Verbose (RAM)	상세 (RAM)
+Version & system	버전 및 시스템
+Version and update	버전 및 업데이트
+Video	동영상
+Video liked.	좋아요가 저장됨.
+Video scaling	동영상 확대
+Video start	동영상 시작
+View comments	댓글 보기
+View full description	전체 설명 보기
+Watch Later	나중에 볼 영상
+Watch YouTube on this device	이 기기에서 YouTube 시청
+watched	시청됨
+Web pages	웹페이지
+Wi-Fi diagnostics	Wi-Fi 진단
+Wi-Fi profile	Wi-Fi 프로필
+X Cancel   O Back	X 취소   O 뒤로
+X Choose   O Return	X 선택   O 뒤로
+X Confirm   O Back	X 확인   O 뒤로
+X Confirm clear   O Cancel	X 삭제 확인   O 취소
+X Delete   O Back	X 삭제   O 뒤로
+X DETAILS   SQUARE DELETE   L/R SECTION	X 상세   □ 삭제   L/R 분류
+X Download pack   O Back	X 팩 다운로드   O 뒤로
+X GO   O CANCEL	X 이동   O 취소
+X Install   O Cancel	X 설치   O 취소
+X Install language   O Back	X 언어 설치   O 뒤로
+X OPEN   L/R SECTION	X 열기   L/R 분류
+X Open   Left/Right change   O Back	X 열기   좌우 변경   O 뒤로
+X Open   O Back	X 열기   O 뒤로
+X Open   O Back   Start Address	X 열기   O 뒤로   Start 주소
+X Open   Square Close   O Back	X 열기   □ 닫기   O 뒤로
+X OPEN   START SEARCH   SELECT MENU	X 열기   Start 검색   Select 메뉴
+X Open / confirm   O Back	X 열기/확인   O 뒤로
+X Open or toggle   O Back	X 열기/전환   O 뒤로
+X OPEN WHEN READY   SELECT MENU	X 준비 후 열기   Select 메뉴
+X opens or toggles.  O goes back.	X 열기/전환. O 뒤로.
+X or Left/Right change   L/R category   O Back	X/좌우 변경   L/R 분류   O 뒤로
+X or Left/Right change   L/R section	X/좌우 변경   L/R 구역
+X or Left/Right change   O Back	X/좌우 변경   O 뒤로
+X PAUSE	X 정지
+X PAUSE   SQUARE DELETE   L/R SECTION	X 정지   □ 삭제   L/R 분류
+X PAUSE  TRI MENU  L/R SEEK	X 정지  TRI 메뉴  L/R 탐색
+X PAUSE  TRI QUEUE  L/R VIDEO	X 일시 정지  TRI 대기열  L/R 동영상
+X PAUSE  TRI TRACKS	X 정지  TRI 트랙
+X PLAY	X 재생
+X PLAY  TRI MENU  L/R SEEK	X 재생  TRI 메뉴  L/R 탐색
+X PLAY  TRI QUEUE  L/R VIDEO	X 재생  TRI 대기열  L/R 동영상
+X PLAY  TRI TRACKS	X 재생  TRI 트랙
+X Remove   O Cancel	X 삭제   O 취소
+X Reset   O Back	X 초기화   O 뒤로
+X RESUME   SQUARE DELETE   L/R SECTION	X 재개   □ 삭제   L/R 분류
+X Retry   O Back	X 재시도   O 뒤로
+X Save   O Cancel	X 저장   O 취소
+X Select   O Back	X 선택   O 뒤로
+Yes	예
+Your playlists	내 재생목록
+Your subscriptions	내 구독
+YouTube account	YouTube 계정
+YouTube home topics	YouTube 홈 주제
+YouTube results	YouTube 검색 결과

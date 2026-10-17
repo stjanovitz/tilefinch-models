@@ -1,0 +1,386 @@
+TFUI1	pt
+Account	Conta
+Active	Ativo
+Add to this playlist	Adicionar a esta lista
+Add/remove bookmark	Adicionar/remover favorito
+Added to playlist.	Adicionado à lista.
+Address	Endereço
+Advanced & experimental	Avançado e experimental
+Allow	Permitir
+Allow site	Permitir site
+Alternate language	Idioma alternativo
+Always Reader	Sempre no leitor
+Analog cursor	Cursor analógico
+Analog moves the pointer or scrolls.	Analógico move o cursor ou desloca.
+Appearance	Aparência
+Arabic	Árabe
+Ask	Perguntar
+Assamese	Assamês
+Audio	Áudio
+Audio & subtitles	Áudio e legendas
+Audio language	Idioma do áudio
+Audio-only	Só áudio
+Auto	Auto
+Auto Reader	Leitor automático
+Automatic	Automático
+Automatic next: Off	Próximo automático: Não
+Automatic next: On	Próximo automático: Sim
+Back	Voltar
+Back to video	Voltar ao vídeo
+Basic	Básico
+Basic view	Vista básica
+Basic view fallback	Alternativa de vista básica
+Bengali	Bengali
+Bengali-Assamese	Bengali-assamês
+Beta	Beta
+Block	Bloquear
+Bookmarks	Favoritos
+Box	Caixa
+Browser text size	Texto do navegador
+Browser UI	Interface do navegador
+Browsing & input	Navegação e controlos
+Buffered	Em memória
+Built in	Integrado
+Built-in	Integrado
+bytes	bytes
+Cancel	Cancelar
+Category	Categoria
+Channel videos	Vídeos do canal
+Chapters	Capítulos
+Check for updates	Procurar atualizações
+Check weekly	Verificar semanalmente
+Check Wi-Fi sign-in	Verificar acesso Wi-Fi
+Checking	A verificar
+Checking...	A verificar...
+Chinese (Simplified)	Chinês (simplificado)
+Chinese (Traditional)	Chinês (tradicional)
+Chrome theme	Tema da interface
+Clear cache	Limpar cache
+Clear cookies	Limpar cookies
+Clear history	Limpar histórico
+Clear playback positions	Limpar posições de reprodução
+Close	Fechar
+Collections	Coleções
+Color emoji pack	Pacote de emoji a cores
+Color pack	Pacote a cores
+Comments	Comentários
+Compact	Compacto
+Content blocker	Bloqueador de conteúdo
+Content blocking	Bloqueio de conteúdo
+Continue from	Continuar a partir de
+Controls guide	Guia de controlos
+Cookie notices	Avisos de cookies
+Cookies & storage	Cookies e armazenamento
+Custom	Personalizado
+Cyrillic	Cirílico
+Dark	Escuro
+Default	Padrão
+Description	Descrição
+Detailed	Detalhado
+Devanagari (Hindi)	Devanágari (Hindi)
+Device & storage	Dispositivo e armazenamento
+Diagnostic QR	QR de diagnóstico
+Download focused link	Transferir ligação selecionada
+DOWNLOAD PAUSED	Transferência em pausa
+Downloaded ZIP files are kept.	Os ZIP transferidos são mantidos.
+Downloaded ZIPs are managed separately.	Os ZIP são geridos à parte.
+Downloading	A transferir
+Downloading...	A transferir...
+Downloads	Transferências
+Embedded	Integrado
+Emoji	Emoji
+English	Inglês
+Error	Erro
+Existing folders are not replaced.	Não substitui pastas existentes.
+Exit to XMB	Sair para o XMB
+Experimental	Experimental
+Explore topics are unavailable. Search above to find videos.	Temas indisponíveis. Pesquisar acima para encontrar vídeos.
+Explore YouTube	Explorar o YouTube
+Extended Latin	Latino alargado
+Extracted text	Texto extraído
+extras kept in ZIP	extras no ZIP
+FILE ADDED TO DOWNLOAD QUEUE	Ficheiro na fila
+File download	Transferência de ficheiro
+FILE DOWNLOAD STARTED	Transferência iniciada
+FILE QUEUED - OPEN DOWNLOADS TO RETRY	Tente de novo em Transferências
+File saved	Ficheiro guardado
+files	ficheiros
+Files are not installed or run.	Não instala nem executa ficheiros.
+Find in page	Procurar na página
+Forward	Avançar
+French	Francês
+Game buttons	Botões de jogo
+German	Alemão
+Global off	Desligado globalmente
+Heavy pages	Páginas pesadas
+Hebrew	Hebraico
+Help & diagnostics	Ajuda e diagnóstico
+Hibernate tab	Hibernar separador
+Hidden	Ocultos
+Hide page ads	Ocultar anúncios
+Hindi	Hindi
+History	Histórico
+Hold Start+Select for page controls.	Manter Start+Select: controlos da página.
+Home	Início
+Home page	Página inicial
+HOMEBREW REMOVED - DOWNLOADS UNCHANGED	App removida. Transferências mantidas
+Immediate	Imediato
+Install homebrew?	Instalar homebrew?
+Install offline app	Instalar aplicação offline
+INSTALLATION CANCELLED - ARCHIVE KEPT	Instalação cancelada. ZIP mantido
+Installed	Instalado
+Installed homebrew	Homebrew instalado
+INSTALLED TO PSP/GAME - ARCHIVE KEPT	Instalado em PSP/GAME. ZIP mantido
+Installing	A instalar
+INSTALLING HOMEBREW - O CANCEL	A instalar. O Cancelar
+INSTALLING UI LANGUAGE	A INSTALAR IDIOMA DA INTERFACE
+Installing...	A instalar...
+Interface language	Idioma da interface
+Japanese	Japonês
+JavaScript	JavaScript
+Keep this file, or copy it elsewhere using USB storage.	Guarde ou copie o ficheiro por USB.
+Keyboard	Teclado
+Korean	Coreano
+L/R  X SELECT  O BACK	L/R  X ESCOLHER  O VOLTAR
+L/R CATEGORY   X SELECT   O BACK	L/R CATEGORIA   X ESCOLHER   O VOLTAR
+Language	Idioma
+Language & emoji	Idioma e emoji
+LANGUAGE DOWNLOAD CANCELLED	TRANSFERÊNCIA DO IDIOMA CANCELADA
+LANGUAGE DOWNLOAD FAILED - TRY AGAIN	FALHA NA TRANSFERÊNCIA - TENTAR NOVAMENTE
+Language pack	Pacote de idioma
+Large	Grande
+Last error summary	Resumo do último erro
+Left/Right choose   O Back	Esq./Dir. escolher   O Voltar
+Library	Biblioteca
+Licences	Licenças
+Light	Claro
+Like	Gostar
+Like failed - select Like to retry.	Falha ao gostar - escolher Gostar novamente.
+Like removed.	Gosto retirado.
+LIVE	AO VIVO
+Load allowlist	Carregar lista permitida
+Load more	Carregar mais
+Load more comments	Carregar mais comentários
+Load more results	Carregar mais resultados
+Loading	A carregar
+Loading playlist...	Carregando lista...
+Manage apps installed by Tilefinch	Gerir instalações do Tilefinch
+MB free	MB livres
+Medium	Médio
+Memory Stick file	Ficheiro no Memory Stick
+Mixed HTTP (session)	HTTP misto (sessão)
+My links	Os meus links
+Network profile	Perfil de rede
+New	Novo
+New suggestions ready - select Refresh.	Novas sugestões prontas - escolher Atualizar.
+Night mode	Modo noturno
+No	Não
+No entries were returned. Sign in or try again.	Sem resultados. Entrar ou tentar novamente.
+No installed homebrew found.	Sem homebrew instalado.
+No playable video results were present in the bounded public response. Try another search.	A resposta pública limitada não continha vídeos reproduzíveis. Tentar outra pesquisa.
+No public comments were returned within the bounded request.	O pedido limitado não devolveu comentários públicos.
+No public video entries were present in the bounded channel response.	A resposta limitada do canal não continha vídeos públicos.
+No videos are available in this feed yet.	Ainda não há vídeos nesta lista.
+None	Nenhum
+Not confirmed. Select again to retry.	Não confirmado. Escolher novamente.
+Not installed	Não instalado
+O Back	O Voltar
+Off	Desligado
+Offer language packs	Oferecer pacotes de idioma
+On	Ligado
+Only apps installed by Tilefinch appear here.	Só aparecem instalações do Tilefinch.
+Only install software you trust.	Instale apenas software de confiança.
+Open video details	Abrir detalhes do vídeo
+Original	Original
+Page colors	Cores da página
+PAGE CONTROLS  HOLD START+SELECT TO EXIT	CONTROLOS DA PÁGINA  MANTER START+SELECT: SAIR
+PAGE CONTROLS  START+SELECT EXIT	CONTROLOS DA PÁGINA  START+SELECT SAIR
+Page glyphs	Caracteres da página
+Page text size	Texto da página
+Page tools	Ferramentas da página
+Per site	Por site
+percent watched	por cento visto
+Permissions & controls	Permissões e controlos
+Play all	Reproduzir tudo
+Play from here	Reproduzir daqui
+Play video	Reproduzir vídeo
+Playlist	Lista de reprodução
+Playlist could not load	Não foi possível carregar a lista
+Playlists	Listas de reprodução
+Portuguese	Português
+Preparing resumable download	A preparar transferência
+PRESS SQUARE AGAIN TO DELETE	Premir □ outra vez para apagar
+Press X again to exit	Premir X novamente para sair
+Privacy & security	Privacidade e segurança
+Published	Publicado
+Queue	Fila
+R Skip   Triangle Queue	R Pular  TRI Fila
+Reader	Leitor
+Reader font	Tipo de letra do leitor
+Reader mode	Modo de leitura
+Ready	Pronto
+Recent public uploads from this channel.	Vídeos públicos recentes deste canal.
+Recently watched	Vistos recentemente
+Recommendations	Recomendações
+Recommended for you	Recomendado para si
+Refresh suggestions	Atualizar sugestões
+Reload	Recarregar
+Reloading suggestions...	A atualizar sugestões...
+Remember size	Lembrar tamanho
+REMOVAL STOPPED - RETRY TO FINISH	Remoção parada. Tente de novo
+Remove	Remover
+Remove from Watch Later	Remover de Ver mais tarde
+Remove homebrew?	Remover homebrew?
+Removed from playlist.	Removido da lista.
+REMOVING HOMEBREW - O STOP	A remover. O Parar
+Removing like...	A retirar gosto...
+Reset declined offers	Repor ofertas recusadas
+Restore page	Restaurar página
+Resume saves	Guardar progresso
+Retry	Tentar novamente
+Retry queue	Tentar fila novamente
+Run	Executar
+Russian	Russo
+Save article	Guardar artigo
+Save error reports	Guardar relatórios de erro
+Save file?	Guardar ficheiro?
+Save playback position	Guardar posição de reprodução
+Save playback positions	Guardar posições de reprodução
+Save screenshot	Guardar captura
+Save to playlist	Guardar na lista
+Save to the Memory Stick.	Guardar no Memory Stick.
+Save video offline	Guardar vídeo offline
+Saved data inside it will also be deleted.	Os dados guardados dentro também.
+SAVING DOWNLOAD  O PAUSE	A transferir   O Pausa
+Saving like...	A guardar gosto...
+Search	Pesquisar
+Search above or select Refresh.	Pesquisar acima ou escolher Atualizar.
+Search engine	Motor de pesquisa
+Search results	Resultados da pesquisa
+Search YouTube	Pesquisar no YouTube
+SEEK	POSIÇÃO
+Select Account again to close.	Escolher Conta novamente para fechar.
+Select an action.	Escolher uma ação.
+Select Like or Unlike.	Escolher Gostar ou Retirar gosto.
+SELECT ROTATE	SELECT RODAR
+Select the thumbnail to retry playback. The player provides play, pause, seek, time, and exit controls.	Escolher a miniatura para tentar novamente. O leitor permite reproduzir, pausar, procurar, ver o tempo e sair.
+Select: menu.  L/R: page/category.	Select: menu.  L/R: página/categoria.
+Settings	Definições
+Settings > Video > Audio & subtitles	Definições > Vídeo > Áudio e legendas
+Shadow	Sombra
+Sharp	Nítido
+Shown	Visíveis
+Sign in	Entrar
+Sign in to like this video.	Entrar para gostar deste vídeo.
+Sign in to unlike this video.	Entrar para retirar o gosto deste vídeo.
+Sign in to use this action.	Entrar para usar esta ação.
+Sign in to view your subscriptions.	Entrar para ver as suas subscrições.
+Sign out	Sair
+Signed in on this device.	Sessão iniciada neste dispositivo.
+Site data & storage	Dados e armazenamento do site
+Site information	Informações do site
+Site storage	Armazenamento do site
+Small	Pequeno
+Smooth	Suave
+Spanish	Espanhol
+SQUARE DELETE   O CANCEL	□ Apagar   O Cancelar
+Stable	Estável
+Start opens Address.  Square reloads.	Start abre o endereço.  □ recarrega.
+STICK/L/R SEEK  X PAUSE	ANALÓG./L/R POSIÇÃO  X PAUSA
+STICK/L/R SEEK  X PLAY	ANALÓG./L/R POSIÇÃO  X REPROD.
+Subscribe	Subscrever
+Subscribed.	Subscrição ativada.
+Subscriptions	Subscrições
+Subtitle background	Fundo das legendas
+Subtitle language	Idioma das legendas
+Subtitle size	Tamanho das legendas
+Subtitles	Legendas
+Suggestions	Sugestões
+Suggestions unavailable - try Refresh.	Sugestões indisponíveis - tentar Atualizar.
+Suggestions up to date.	Sugestões atualizadas.
+Suggestions will load in the background.	As sugestões vão carregar em segundo plano.
+Switch account	Mudar de conta
+Tabs	Separadores
+Text entry	Entrada de texto
+The link is kept for retry.	A ligação fica para tentar de novo.
+The server may change the filename.	O servidor pode alterar o nome.
+The whole app folder will be deleted.	A pasta inteira será eliminada.
+The ZIP is kept. Nothing runs automatically.	O ZIP fica. Nada inicia sozinho.
+Theme	Tema
+Third-party cookies	Cookies de terceiros
+This site JS	JavaScript deste site
+TLS ticket saving	Guardar tickets TLS
+Try again	Tentar novamente
+UI LANGUAGE SAVED - RESTART TO APPLY	IDIOMA GUARDADO - REINICIAR PARA APLICAR
+Ukrainian	Ucraniano
+Unlike	Retirar gosto
+Unlike failed - select Unlike to retry.	Falha ao retirar - escolher Retirar gosto novamente.
+Unsubscribe	Cancelar subscrição
+Unsubscribed.	Subscrição cancelada.
+Up next	A seguir
+Up/Down Part  O Back	Cima/Baixo Parte  O Voltar
+Up/Down selects a menu item.	Cima/Baixo escolhe um item do menu.
+Update channel	Canal de atualização
+Update check	Verificar atualizações
+Updates	Atualizações
+Updating...	A atualizar...
+URL history	Histórico de endereços
+Verbose (RAM)	Detalhado (RAM)
+Version & system	Versão e sistema
+Version and update	Versão e atualização
+Video	Vídeo
+Video liked.	Gosto guardado.
+Video scaling	Escala do vídeo
+Video start	Início do vídeo
+View comments	Ver comentários
+View full description	Ver descrição completa
+Watch Later	Ver mais tarde
+Watch YouTube on this device	Ver YouTube neste dispositivo
+watched	visto
+Web pages	Páginas web
+Wi-Fi diagnostics	Diagnóstico de Wi-Fi
+Wi-Fi profile	Perfil de Wi-Fi
+X Cancel   O Back	X Cancelar   O Voltar
+X Choose   O Return	X Escolher   O Voltar
+X Confirm   O Back	X Confirmar   O Voltar
+X Confirm clear   O Cancel	X Confirmar limpeza   O Cancelar
+X Delete   O Back	X Apagar   O Voltar
+X DETAILS   SQUARE DELETE   L/R SECTION	X Detalhes   □ Apagar   L/R Secção
+X Download pack   O Back	X Transferir pacote   O Voltar
+X GO   O CANCEL	X IR   O CANCELAR
+X Install   O Cancel	X Instalar   O Cancelar
+X Install language   O Back	X Instalar idioma   O Voltar
+X OPEN   L/R SECTION	X Abrir   L/R Secção
+X Open   Left/Right change   O Back	X Abrir   Esq./Dir. mudar   O Voltar
+X Open   O Back	X Abrir   O Voltar
+X Open   O Back   Start Address	X Abrir   O Voltar   Start Endereço
+X Open   Square Close   O Back	X Abrir   □ Fechar   O Voltar
+X OPEN   START SEARCH   SELECT MENU	X ABRIR   START PESQUISA   SELECT MENU
+X Open / confirm   O Back	X Abrir / confirmar   O Voltar
+X Open or toggle   O Back	X Abrir ou mudar   O Voltar
+X OPEN WHEN READY   SELECT MENU	X ABRIR QUANDO PRONTO   SELECT MENU
+X opens or toggles.  O goes back.	X abre ou muda.  O volta.
+X or Left/Right change   L/R category   O Back	X ou Esq./Dir. mudar   L/R categoria   O Voltar
+X or Left/Right change   L/R section	X ou Esq./Dir. mudar   L/R secção
+X or Left/Right change   O Back	X ou Esq./Dir. mudar   O Voltar
+X PAUSE	X PAUSA
+X PAUSE   SQUARE DELETE   L/R SECTION	X Pausa   □ Apagar   L/R Secção
+X PAUSE  TRI MENU  L/R SEEK	X PAUSA  TRI MENU  L/R POSIÇÃO
+X PAUSE  TRI QUEUE  L/R VIDEO	X PAUSA  TRI FILA  L/R VÍDEO
+X PAUSE  TRI TRACKS	X PAUSA  TRI FAIXAS
+X PLAY	X REPROD.
+X PLAY  TRI MENU  L/R SEEK	X REPROD.  TRI MENU  L/R POSIÇÃO
+X PLAY  TRI QUEUE  L/R VIDEO	X REPRODUZIR  TRI FILA  L/R VÍDEO
+X PLAY  TRI TRACKS	X REPROD.  TRI FAIXAS
+X Remove   O Cancel	X Remover   O Cancelar
+X Reset   O Back	X Repor   O Voltar
+X RESUME   SQUARE DELETE   L/R SECTION	X Retomar   □ Apagar   L/R Secção
+X Retry   O Back	X Tentar novamente   O Voltar
+X Save   O Cancel	X Guardar   O Cancelar
+X Select   O Back	X Escolher   O Voltar
+Yes	Sim
+Your playlists	As suas listas de reprodução
+Your subscriptions	As suas subscrições
+YouTube account	Conta do YouTube
+YouTube home topics	Temas iniciais do YouTube
+YouTube results	Resultados do YouTube

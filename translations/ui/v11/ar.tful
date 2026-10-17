@@ -1,0 +1,386 @@
+TFUI1	ar
+Account	الحساب
+Active	نشط
+Add to this playlist	إضافة إلى هذه القائمة
+Add/remove bookmark	إضافة/حذف إشارة
+Added to playlist.	تمت الإضافة للقائمة.
+Address	العنوان
+Advanced & experimental	متقدم وتجريبي
+Allow	سماح
+Allow site	السماح للموقع
+Alternate language	لغة بديلة
+Always Reader	القراءة دائما
+Analog cursor	المؤشر التناظري
+Analog moves the pointer or scrolls.	العصا لتحريك المؤشر أو التمرير.
+Appearance	المظهر
+Arabic	العربية
+Ask	اسأل
+Assamese	الأسامية
+Audio	الصوت
+Audio & subtitles	الصوت والترجمة
+Audio language	لغة الصوت
+Audio-only	الصوت فقط
+Auto	تلقائي
+Auto Reader	قراءة تلقائية
+Automatic	تلقائي
+Automatic next: Off	تلقائي: إيقاف
+Automatic next: On	تلقائي: تشغيل
+Back	رجوع
+Back to video	العودة للفيديو
+Basic	أساسي
+Basic view	العرض المبسط
+Basic view fallback	بديل العرض المبسط
+Bengali	البنغالية
+Bengali-Assamese	البنغالية والأسامية
+Beta	تجريبي
+Block	حجب
+Bookmarks	الإشارات
+Box	مربع
+Browser text size	حجم نص المتصفح
+Browser UI	واجهة المتصفح
+Browsing & input	التصفح والإدخال
+Buffered	بعد التخزين
+Built in	مدمج
+Built-in	مدمج
+bytes	بايت
+Cancel	إلغاء
+Category	الفئة
+Channel videos	فيديوهات القناة
+Chapters	الفصول
+Check for updates	فحص التحديثات
+Check weekly	فحص أسبوعي
+Check Wi-Fi sign-in	فحص دخول Wi-Fi
+Checking	جار الفحص
+Checking...	جار الفحص...
+Chinese (Simplified)	الصينية (مبسطة)
+Chinese (Traditional)	الصينية (تقليدية)
+Chrome theme	سمة الواجهة
+Clear cache	مسح الذاكرة المؤقتة
+Clear cookies	مسح ملفات الارتباط
+Clear history	مسح السجل
+Clear playback positions	مسح مواضع التشغيل
+Close	إغلاق
+Collections	المجموعات
+Color emoji pack	حزمة رموز ملونة
+Color pack	حزمة الألوان
+Comments	التعليقات
+Compact	مضغوط
+Content blocker	حجب المحتوى
+Content blocking	حجب المحتوى
+Continue from	متابعة من
+Controls guide	دليل التحكم
+Cookie notices	إشعارات الارتباط
+Cookies & storage	الارتباط والتخزين
+Custom	مخصص
+Cyrillic	السيريلية
+Dark	داكن
+Default	افتراضي
+Description	الوصف
+Detailed	مفصل
+Devanagari (Hindi)	الديفناغرية (الهندية)
+Device & storage	الجهاز والتخزين
+Diagnostic QR	QR التشخيص
+Download focused link	تنزيل الرابط المحدد
+DOWNLOAD PAUSED	توقف التنزيل
+Downloaded ZIP files are kept.	تبقى ملفات ZIP المنزلة.
+Downloaded ZIPs are managed separately.	تدار ملفات ZIP بشكل منفصل.
+Downloading	جار التنزيل
+Downloading...	جار التنزيل...
+Downloads	التنزيلات
+Embedded	مدمج
+Emoji	الرموز
+English	الإنجليزية
+Error	خطأ
+Existing folders are not replaced.	لا تستبدل المجلدات الموجودة.
+Exit to XMB	خروج إلى XMB
+Experimental	تجريبي
+Explore topics are unavailable. Search above to find videos.	المواضيع غير متاحة. ابحث عن فيديو أعلاه.
+Explore YouTube	استكشف YouTube
+Extended Latin	لاتيني موسع
+Extracted text	النص المستخرج
+extras kept in ZIP	إضافات في ZIP
+FILE ADDED TO DOWNLOAD QUEUE	أضيف الملف للقائمة
+File download	تنزيل ملف
+FILE DOWNLOAD STARTED	بدأ التنزيل
+FILE QUEUED - OPEN DOWNLOADS TO RETRY	أعد المحاولة من التنزيلات
+File saved	تم حفظ الملف
+files	ملفات
+Files are not installed or run.	لا يتم تثبيت الملفات أو تشغيلها.
+Find in page	بحث في الصفحة
+Forward	للأمام
+French	الفرنسية
+Game buttons	أزرار الألعاب
+German	الألمانية
+Global off	إيقاف عام
+Heavy pages	الصفحات الثقيلة
+Hebrew	العبرية
+Help & diagnostics	المساعدة والتشخيص
+Hibernate tab	إسبات التبويب
+Hidden	مخفي
+Hide page ads	إخفاء إعلانات الصفحة
+Hindi	الهندية
+History	السجل
+Hold Start+Select for page controls.	اضغط مطولا Start+Select للتحكم بالصفحة.
+Home	الرئيسية
+Home page	الصفحة الرئيسية
+HOMEBREW REMOVED - DOWNLOADS UNCHANGED	أزيل التطبيق. بقيت التنزيلات
+Immediate	فورا
+Install homebrew?	تثبيت التطبيق؟
+Install offline app	تثبيت تطبيق محلي
+INSTALLATION CANCELLED - ARCHIVE KEPT	ألغي التثبيت. بقي ZIP
+Installed	مثبت
+Installed homebrew	التطبيقات المثبتة
+INSTALLED TO PSP/GAME - ARCHIVE KEPT	ثبت في PSP/GAME. بقي ZIP
+Installing	جار التثبيت
+INSTALLING HOMEBREW - O CANCEL	تثبيت التطبيق   O إلغاء
+INSTALLING UI LANGUAGE	جار تثبيت لغة الواجهة
+Installing...	جار التثبيت...
+Interface language	لغة الواجهة
+Japanese	اليابانية
+JavaScript	JavaScript
+Keep this file, or copy it elsewhere using USB storage.	احتفظ بالملف أو انسخه عبر USB.
+Keyboard	لوحة المفاتيح
+Korean	الكورية
+L/R  X SELECT  O BACK	L/R  X اختيار  O رجوع
+L/R CATEGORY   X SELECT   O BACK	L/R فئة   X اختيار   O رجوع
+Language	اللغة
+Language & emoji	اللغة والرموز
+LANGUAGE DOWNLOAD CANCELLED	ألغي تنزيل اللغة
+LANGUAGE DOWNLOAD FAILED - TRY AGAIN	فشل تنزيل اللغة - حاول مجددا
+Language pack	حزمة اللغة
+Large	كبير
+Last error summary	ملخص آخر خطأ
+Left/Right choose   O Back	يسار/يمين للاختيار   O رجوع
+Library	المكتبة
+Licences	التراخيص
+Light	فاتح
+Like	إعجاب
+Like failed - select Like to retry.	فشل الإعجاب. اختر إعجاب للمحاولة.
+Like removed.	تمت إزالة الإعجاب.
+LIVE	مباشر
+Load allowlist	تحميل قائمة السماح
+Load more	عرض المزيد
+Load more comments	تحميل المزيد من التعليقات
+Load more results	تحميل المزيد من النتائج
+Loading	جار التحميل
+Loading playlist...	جارٍ تحميل القائمة...
+Manage apps installed by Tilefinch	إدارة تطبيقات Tilefinch
+MB free	MB متاح
+Medium	متوسط
+Memory Stick file	ملف على بطاقة الذاكرة
+Mixed HTTP (session)	HTTP مختلط (جلسة)
+My links	روابطي
+Network profile	ملف الشبكة
+New	جديد
+New suggestions ready - select Refresh.	توصيات جديدة جاهزة. اختر التحديث.
+Night mode	الوضع الليلي
+No	لا
+No entries were returned. Sign in or try again.	لا توجد عناصر. سجل الدخول أو حاول مجددا.
+No installed homebrew found.	لا توجد تطبيقات مثبتة.
+No playable video results were present in the bounded public response. Try another search.	لا توجد فيديوهات قابلة للتشغيل. جرب بحثا آخر.
+No public comments were returned within the bounded request.	لم يتم إرجاع تعليقات عامة.
+No public video entries were present in the bounded channel response.	لم يتم العثور على فيديوهات عامة.
+No videos are available in this feed yet.	لا توجد فيديوهات في هذه القائمة بعد.
+None	بلا
+Not confirmed. Select again to retry.	لم يتأكد. اختر مجددا للمحاولة.
+Not installed	غير مثبت
+O Back	O رجوع
+Off	إيقاف
+Offer language packs	اقتراح حزم اللغة
+On	تشغيل
+Only apps installed by Tilefinch appear here.	تظهر تطبيقات Tilefinch فقط.
+Only install software you trust.	ثبت البرامج الموثوقة فقط.
+Open video details	فتح تفاصيل الفيديو
+Original	أصلي
+Page colors	ألوان الصفحة
+PAGE CONTROLS  HOLD START+SELECT TO EXIT	تحكم الصفحة   اضغط مطولا START+SELECT للخروج
+PAGE CONTROLS  START+SELECT EXIT	تحكم الصفحة   START+SELECT خروج
+Page glyphs	خطوط الصفحات
+Page text size	حجم نص الصفحة
+Page tools	أدوات الصفحة
+Per site	لكل موقع
+percent watched	بالمئة تمت مشاهدته
+Permissions & controls	الأذونات والتحكم
+Play all	تشغيل الكل
+Play from here	التشغيل من هنا
+Play video	تشغيل الفيديو
+Playlist	قائمة التشغيل
+Playlist could not load	تعذّر تحميل القائمة
+Playlists	قوائم التشغيل
+Portuguese	البرتغالية
+Preparing resumable download	إعداد التنزيل
+PRESS SQUARE AGAIN TO DELETE	اضغط □ مجددا للحذف
+Press X again to exit	اضغط X مجددا للخروج
+Privacy & security	الخصوصية والأمان
+Published	تاريخ النشر
+Queue	قائمة التشغيل
+R Skip   Triangle Queue	R تخطّ  TRI القائمة
+Reader	القراءة
+Reader font	خط القراءة
+Reader mode	وضع القراءة
+Ready	جاهز
+Recent public uploads from this channel.	أحدث الفيديوهات العامة من هذه القناة.
+Recently watched	تمت مشاهدته مؤخرا
+Recommendations	التوصيات
+Recommended for you	مقترح لك
+Refresh suggestions	تحديث التوصيات
+Reload	إعادة التحميل
+Reloading suggestions...	جار تحديث التوصيات…
+Remember size	تذكر الحجم
+REMOVAL STOPPED - RETRY TO FINISH	توقفت الإزالة. أعد المحاولة
+Remove	إزالة
+Remove from Watch Later	إزالة من المشاهدة لاحقا
+Remove homebrew?	إزالة التطبيق؟
+Removed from playlist.	تمت الإزالة من القائمة.
+REMOVING HOMEBREW - O STOP	إزالة التطبيق   O إيقاف
+Removing like...	جار إزالة الإعجاب…
+Reset declined offers	مسح الاقتراحات المرفوضة
+Restore page	استعادة الصفحة
+Resume saves	استئناف التنزيل
+Retry	إعادة المحاولة
+Retry queue	إعادة المحاولة
+Run	تشغيل
+Russian	الروسية
+Save article	حفظ المقالة
+Save error reports	حفظ تقارير الأخطاء
+Save file?	حفظ الملف؟
+Save playback position	حفظ موضع التشغيل
+Save playback positions	حفظ مواضع التشغيل
+Save screenshot	حفظ صورة الشاشة
+Save to playlist	حفظ في قائمة
+Save to the Memory Stick.	الحفظ على بطاقة الذاكرة.
+Save video offline	حفظ الفيديو دون اتصال
+Saved data inside it will also be deleted.	وستحذف البيانات المحفوظة داخله.
+SAVING DOWNLOAD  O PAUSE	جار التنزيل   O إيقاف
+Saving like...	جار حفظ الإعجاب…
+Search	بحث
+Search above or select Refresh.	ابحث أعلاه أو اختر التحديث.
+Search engine	محرك البحث
+Search results	نتائج البحث
+Search YouTube	ابحث في YouTube
+SEEK	انتقال
+Select Account again to close.	اختر الحساب مجددا للإغلاق.
+Select an action.	اختر إجراء.
+Select Like or Unlike.	اختر إعجاب أو إزالته.
+SELECT ROTATE	SELECT تدوير
+Select the thumbnail to retry playback. The player provides play, pause, seek, time, and exit controls.	اختر الصورة للمحاولة مجددا. يتيح المشغل التشغيل والإيقاف والتقديم والخروج.
+Select: menu.  L/R: page/category.	Select قائمة. L/R صفحة/فئة.
+Settings	الإعدادات
+Settings > Video > Audio & subtitles	الإعدادات > الفيديو > الصوت والترجمة
+Shadow	ظل
+Sharp	حاد
+Shown	ظاهر
+Sign in	تسجيل الدخول
+Sign in to like this video.	سجل الدخول للإعجاب بالفيديو.
+Sign in to unlike this video.	سجل الدخول لإزالة الإعجاب.
+Sign in to use this action.	سجل الدخول للمتابعة.
+Sign in to view your subscriptions.	سجل الدخول لعرض اشتراكاتك.
+Sign out	تسجيل الخروج
+Signed in on this device.	تم تسجيل الدخول على هذا الجهاز.
+Site data & storage	بيانات الموقع والتخزين
+Site information	معلومات الموقع
+Site storage	تخزين الموقع
+Small	صغير
+Smooth	ناعم
+Spanish	الإسبانية
+SQUARE DELETE   O CANCEL	□ حذف   O إلغاء
+Stable	مستقر
+Start opens Address.  Square reloads.	Start عنوان. □ إعادة تحميل.
+STICK/L/R SEEK  X PAUSE	STICK/L/R وقت X إيقاف
+STICK/L/R SEEK  X PLAY	STICK/L/R وقت X تشغيل
+Subscribe	اشتراك
+Subscribed.	تم الاشتراك.
+Subscriptions	الاشتراكات
+Subtitle background	خلفية الترجمة
+Subtitle language	لغة الترجمة
+Subtitle size	حجم الترجمة
+Subtitles	الترجمة
+Suggestions	التوصيات
+Suggestions unavailable - try Refresh.	التوصيات غير متاحة. حاول التحديث.
+Suggestions up to date.	التوصيات محدثة.
+Suggestions will load in the background.	سيتم تحميل التوصيات في الخلفية.
+Switch account	تبديل الحساب
+Tabs	التبويبات
+Text entry	إدخال النص
+The link is kept for retry.	يحفظ الرابط لإعادة المحاولة.
+The server may change the filename.	قد يغير الخادم اسم الملف.
+The whole app folder will be deleted.	سيحذف مجلد التطبيق بالكامل.
+The ZIP is kept. Nothing runs automatically.	يبقى ZIP. لا تشغيل تلقائي.
+Theme	السمة
+Third-party cookies	ارتباط طرف ثالث
+This site JS	JS لهذا الموقع
+TLS ticket saving	حفظ تذاكر TLS
+Try again	حاول مجددا
+UI LANGUAGE SAVED - RESTART TO APPLY	تم حفظ اللغة - أعد التشغيل
+Ukrainian	الأوكرانية
+Unlike	إزالة الإعجاب
+Unlike failed - select Unlike to retry.	فشلت الإزالة. حاول مجددا.
+Unsubscribe	إلغاء الاشتراك
+Unsubscribed.	تم إلغاء الاشتراك.
+Up next	التالي
+Up/Down Part  O Back	أعلى/أسفل جزء   O رجوع
+Up/Down selects a menu item.	أعلى/أسفل لاختيار عنصر القائمة.
+Update channel	قناة التحديث
+Update check	فحص التحديث
+Updates	التحديثات
+Updating...	جار التحديث...
+URL history	سجل العناوين
+Verbose (RAM)	مفصل (RAM)
+Version & system	الإصدار والنظام
+Version and update	الإصدار والتحديث
+Video	الفيديو
+Video liked.	تم الإعجاب بالفيديو.
+Video scaling	تحجيم الفيديو
+Video start	بدء الفيديو
+View comments	عرض التعليقات
+View full description	عرض الوصف الكامل
+Watch Later	المشاهدة لاحقا
+Watch YouTube on this device	شاهد YouTube على هذا الجهاز
+watched	تمت مشاهدته
+Web pages	صفحات الويب
+Wi-Fi diagnostics	تشخيص Wi-Fi
+Wi-Fi profile	ملف Wi-Fi
+X Cancel   O Back	X إلغاء   O رجوع
+X Choose   O Return	X اختيار   O رجوع
+X Confirm   O Back	X تأكيد   O رجوع
+X Confirm clear   O Cancel	X تأكيد المسح   O إلغاء
+X Delete   O Back	X حذف   O رجوع
+X DETAILS   SQUARE DELETE   L/R SECTION	X تفاصيل   □ حذف   L/R قسم
+X Download pack   O Back	X تنزيل الحزمة   O رجوع
+X GO   O CANCEL	X انتقال   O إلغاء
+X Install   O Cancel	X تثبيت   O إلغاء
+X Install language   O Back	X تثبيت اللغة   O رجوع
+X OPEN   L/R SECTION	X فتح   L/R قسم
+X Open   Left/Right change   O Back	X فتح   يسار/يمين تغيير   O رجوع
+X Open   O Back	X فتح   O رجوع
+X Open   O Back   Start Address	X فتح   O رجوع   Start عنوان
+X Open   Square Close   O Back	X فتح   □ إغلاق   O رجوع
+X OPEN   START SEARCH   SELECT MENU	X فتح   Start بحث   Select قائمة
+X Open / confirm   O Back	X فتح/تأكيد   O رجوع
+X Open or toggle   O Back	X فتح أو تبديل   O رجوع
+X OPEN WHEN READY   SELECT MENU	X فتح عند الجاهزية   Select قائمة
+X opens or toggles.  O goes back.	X فتح/تبديل. O رجوع.
+X or Left/Right change   L/R category   O Back	X/يسار/يمين تغيير   L/R فئة   O رجوع
+X or Left/Right change   L/R section	X/يسار/يمين تغيير   L/R قسم
+X or Left/Right change   O Back	X/يسار/يمين تغيير   O رجوع
+X PAUSE	X إيقاف
+X PAUSE   SQUARE DELETE   L/R SECTION	X إيقاف   □ حذف   L/R قسم
+X PAUSE  TRI MENU  L/R SEEK	X إيقاف TRI قائمة L/R وقت
+X PAUSE  TRI QUEUE  L/R VIDEO	X توقف  TRI القائمة  L/R
+X PAUSE  TRI TRACKS	X إيقاف  TRI مسارات
+X PLAY	X تشغيل
+X PLAY  TRI MENU  L/R SEEK	X تشغيل TRI قائمة L/R وقت
+X PLAY  TRI QUEUE  L/R VIDEO	X تشغيل  TRI القائمة  L/R
+X PLAY  TRI TRACKS	X تشغيل  TRI مسارات
+X Remove   O Cancel	X إزالة   O إلغاء
+X Reset   O Back	X مسح   O رجوع
+X RESUME   SQUARE DELETE   L/R SECTION	X استئناف   □ حذف   L/R قسم
+X Retry   O Back	X إعادة   O رجوع
+X Save   O Cancel	X حفظ   O إلغاء
+X Select   O Back	X اختيار   O رجوع
+Yes	نعم
+Your playlists	قوائمك
+Your subscriptions	اشتراكاتك
+YouTube account	حساب YouTube
+YouTube home topics	مواضيع YouTube
+YouTube results	نتائج YouTube

@@ -48,6 +48,11 @@ pack. Version 10 adds playlist playback, queue and automatic-next controls
 for all available interface languages. Its Hindi labels require signed
 Devanagari pack revision 5; earlier downloads remain unchanged.
 
+Version 11 adds native file-download, ZIP installation, and installed-app
+management controls in all available interface languages. Its Hindi labels
+require signed Devanagari pack revision 6; Bengali and Assamese use shared
+Bengali-Assamese pack revision 2. Earlier downloads remain unchanged.
+
 ## Language and emoji packs
 
 Language packs make more characters available and choose glyph shapes suited

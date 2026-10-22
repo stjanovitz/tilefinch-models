@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Check bounded, inert published interface catalog data without a browser build."""
 from pathlib import Path
+import struct
 import unittest
 
 
@@ -20,6 +21,7 @@ class TranslationTests(unittest.TestCase):
             9: {"bn", "as"},
             10: {"es", "fr", "de", "ja", "ru", "uk", "zh-hans", "ko", "hi", "ar", "pt", "bn", "as"},
             11: {"es", "fr", "de", "ja", "ru", "uk", "zh-hans", "ko", "hi", "ar", "pt", "bn", "as"},
+            12: {"es", "fr", "de", "ja", "ru", "uk", "zh-hans", "ko", "hi", "ar", "pt", "bn", "as"},
         }
         self.assertEqual({str(path.relative_to(root)) for path in catalogs}, {
             f"v{version}/{language}.tful"
@@ -28,6 +30,26 @@ class TranslationTests(unittest.TestCase):
         for path in catalogs:
             with self.subTest(path=path.relative_to(root)):
                 data = path.read_bytes()
+                if int(path.parent.name[1:]) >= 12:
+                    self.assertLessEqual(len(data), 65535)
+                    header, body = data.split(b"\n", 1)
+                    self.assertEqual(header, b"TFUI2\t" + path.stem.encode("ascii"))
+                    self.assertGreaterEqual(len(body), 2)
+                    count, = struct.unpack_from(">H", body)
+                    self.assertGreater(count, 0)
+                    self.assertLessEqual(count, 2048)
+                    self.assertGreaterEqual(len(body), 2 + 5 * count)
+                    hashes = struct.unpack_from(f">{count}I", body, 2)
+                    self.assertEqual(list(hashes), sorted(set(hashes)))
+                    lengths = body[2 + 4 * count:2 + 5 * count]
+                    self.assertTrue(all(lengths))
+                    values = body[2 + 5 * count:].decode("utf-8")
+                    self.assertTrue(values.endswith("\n"))
+                    rows = values[:-1].split("\n")
+                    self.assertEqual(len(rows), count)
+                    self.assertTrue(all(row and "\0" not in row and "\t" not in row
+                                        and len(row.encode("utf-8")) <= 256 for row in rows))
+                    continue
                 self.assertLessEqual(len(data), 32 * 1024)
                 self.assertNotIn(b"\0", data)
                 text = data.decode("utf-8")

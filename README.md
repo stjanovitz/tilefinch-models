@@ -53,6 +53,11 @@ management controls in all available interface languages. Its Hindi labels
 require signed Devanagari pack revision 6; Bengali and Assamese use shared
 Bengali-Assamese pack revision 2. Earlier downloads remain unchanged.
 
+Version 12 expands translated settings, status messages, help and error screens.
+Its compact data-only catalogs use less memory. Hindi requires signed Devanagari
+pack revision 7; Bengali and Assamese require shared Bengali-Assamese revision 3.
+All earlier catalogs remain unchanged for older browser versions.
+
 ## Language and emoji packs
 
 Language packs make more characters available and choose glyph shapes suited

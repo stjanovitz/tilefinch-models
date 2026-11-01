@@ -58,6 +58,11 @@ Its compact data-only catalogs use less memory. Hindi requires signed Devanagari
 pack revision 7; Bengali and Assamese require shared Bengali-Assamese revision 3.
 All earlier catalogs remain unchanged for older browser versions.
 
+Version 13 adds YouTube channel navigation and updated playback and recovery
+messages. Hindi requires signed Devanagari pack revision 8; Bengali and
+Assamese require shared Bengali-Assamese revision 4. Versions 1–12 remain
+unchanged.
+
 ## Language and emoji packs
 
 Language packs make more characters available and choose glyph shapes suited

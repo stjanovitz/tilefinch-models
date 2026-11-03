@@ -63,6 +63,10 @@ messages. Hindi requires signed Devanagari pack revision 8; Bengali and
 Assamese require shared Bengali-Assamese revision 4. Versions 1–12 remain
 unchanged.
 
+Version 14 adds clearer YouTube player hints, caption controls, playback errors
+and account messages. It uses the same signed glyph-pack revisions as version
+13. All earlier catalog paths remain unchanged for existing browser builds.
+
 ## Language and emoji packs
 
 Language packs make more characters available and choose glyph shapes suited

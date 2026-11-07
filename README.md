@@ -67,6 +67,9 @@ Version 14 adds clearer YouTube player hints, caption controls, playback errors
 and account messages. It uses the same signed glyph-pack revisions as version
 13. All earlier catalog paths remain unchanged for existing browser builds.
 
+Version 15 adds Page zoom settings. It uses the same signed glyph-pack
+revisions as version 14. All earlier catalog paths remain unchanged.
+
 ## Language and emoji packs
 
 Language packs make more characters available and choose glyph shapes suited

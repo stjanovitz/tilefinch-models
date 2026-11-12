@@ -70,6 +70,10 @@ and account messages. It uses the same signed glyph-pack revisions as version
 Version 15 adds Page zoom settings. It uses the same signed glyph-pack
 revisions as version 14. All earlier catalog paths remain unchanged.
 
+Version 16 adds clearer page-loading guidance. Hindi requires signed
+Devanagari pack revision 9; Bengali and Assamese require shared
+Bengali-Assamese revision 5. All earlier catalog paths remain unchanged.
+
 ## Language and emoji packs
 
 Language packs make more characters available and choose glyph shapes suited

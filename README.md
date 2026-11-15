@@ -13,8 +13,8 @@ available, and it never downloads an optional component automatically.
 This repository also hosts the data-only interface translations downloaded
 from **Settings → Appearance → Language & emoji → Interface language**.
 Available translations are Spanish, French, German, Japanese, Russian,
-Ukrainian, Simplified Chinese, Korean, Hindi, Arabic, Portuguese, Bengali and
-Assamese.
+Ukrainian, Simplified Chinese, Korean, Hindi, Arabic, Portuguese, Bengali,
+Assamese and Hebrew.
 
 The versioned files in `translations/ui/` are generated from the browser
 repository's translation sources. Each browser build pins the exact SHA-256
@@ -73,6 +73,13 @@ revisions as version 14. All earlier catalog paths remain unchanged.
 Version 16 adds clearer page-loading guidance. Hindi requires signed
 Devanagari pack revision 9; Bengali and Assamese require shared
 Bengali-Assamese revision 5. All earlier catalog paths remain unchanged.
+
+Version 17 adds web-app audio, microphone and site-storage controls. Version
+18 adds Hebrew and completes translations across the browser menus, settings,
+Collections and player messages. It uses the existing signed glyph packs:
+Devanagari revision 9, Bengali-Assamese revision 5, and Hebrew revision 1 or
+later. Versions 1–17 remain unchanged. The new translations have not yet been
+reviewed by native speakers.
 
 ## Language and emoji packs
 

@@ -81,6 +81,10 @@ Devanagari revision 9, Bengali-Assamese revision 5, and Hebrew revision 1 or
 later. Versions 1–17 remain unchanged. The new translations have not yet been
 reviewed by native speakers.
 
+Version 19 adds clearer sign-in refusal messages. It uses the same signed
+glyph-pack revisions as version 18. All earlier catalog paths remain
+unchanged for existing browser builds.
+
 ## Language and emoji packs
 
 Language packs make more characters available and choose glyph shapes suited
